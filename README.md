@@ -1,6 +1,6 @@
 # ETShop-for-iOS
 
-#### 亲~您的一个小动作，会大大地鼓励EleTeam继续维护该项目，请 Watch、Star、Fork Me。
+#### 亲~您的一个小动作，会大大地鼓励EleTeam团队继续维护该项目，请 Watch、Star、Fork Me。
 
 #### IOS商城，电商开源APP，类似京东商城，天猫商城，淘宝，去年开发的一个项目，现在把它分享出来。
 #### 服务端是PHP商城，对应项目是 ETShop-for-PHP-Yii2，https://github.com/EleTeam/ETShop-for-PHP-Yii2
