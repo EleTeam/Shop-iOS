@@ -1,8 +1,9 @@
-# Shop-for-iOS
+# ETShop-for-iOS
+
+#### 亲~您的一个小动作，会大大地鼓励EleTeam继续维护该项目，请 Watch、Star、Fork Me。
 
 #### IOS商城，电商开源APP，类似京东商城，天猫商城，淘宝，去年开发的一个项目，现在把它分享出来。
-#### 服务端是Java 商城，对应项目是Shop-for-JavaWeb
-
+#### 服务端是PHP商城，对应项目是 ETShop-for-PHP-Yii2，https://github.com/EleTeam/ETShop-for-PHP-Yii2
 
 ##### 1.App使用MVC框架完成开发。
 ##### 2.使用CocoaPods引入各大第三方组件：
@@ -24,11 +25,12 @@
 
 ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6740.jpg)      ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6741.jpg)     
 
-###### Created by Tony Wong
-###### Copyright © 2015 YKXMall. All rights reserved.
-###### email 908601756@qq.com
+###### @author Tony Wong
+###### @email 908601756@qq.com
+###### @copyright Copyright © 2015年 EleTeam. All rights reserved.
+###### @license The MIT License (MIT)
 
-###### 此源码遵守 The MIT License (MIT)，可用于商业上，但是因此带来的商业损失本作者不承担责任。
+###### 此源码遵守 The MIT License (MIT)，可用于商业上，但是因此带来的商业损失EleTeam团队不承担责任。
 
 
 
