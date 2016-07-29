@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  ETShop-for-iOS
+//
+//  Created by EleTeam(Tony Wong) on 15/06/03.
+//  Copyright © 2015年 EleTeam. All rights reserved.
+//
+//  @email 908601756@qq.com
+//
+//  @license The MIT License (MIT)
+//
+
+#import "common_macro.h"
+#import "url_macro.h"
+#import "db_macro.h"
+#import "storage_macro.h"
+#import "remote_macro.h"
+#import "notify_macro.h"
+
+#import "Masonry.h"
+
+#import "UIColor+hexColor.h"
+#import "UIImageView+WebCache.h"
+
+#import "HttpClient.h"
+#import "FormatUtil.h"
+#import "PriceLabel.h"
+#import "StorageUtil.h"
+
+#import "BaseController.h"
