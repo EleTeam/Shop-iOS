@@ -27,7 +27,7 @@ PODS:
   - jastor (0.2.1)
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
-  - MJExtension (3.0.11)
+  - MJExtension (3.0.13)
   - OCMock (3.3.1)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
@@ -55,7 +55,7 @@ SPEC CHECKSUMS:
   jastor: fe9ff71f4b683698253d6a0d9a2561987fd9aff3
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  MJExtension: f9ae6ddc0f1c482c3c9af750280ccebd14381958
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
   OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74

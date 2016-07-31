@@ -11,10 +11,8 @@
 //
 
 //网站地址
-//#define kUrlBase                        @"http://192.168.1.100:8080" //内网地址
-//#define kUrlBase                        @"http://localhost:8080"
-//#define kUrlBase                        @"http://ykxmall.ETShop-for-iOS8.com:8080"
-#define kUrlBase                        @"http://api.eleteam.com/v1"
+//#define kUrlBase                        @"http://local.eleteamapi.ygcr8.com/v1" //本地地址
+#define kUrlBase                        @"http://eleteamapi.ygcr8.com/v1" //外网
 #define kUrlCategoryListWithProduct     kUrlBase@"/category/list-with-product"
 //#define kUrlCategoryList                kUrlBase@"/app/category/list"
 //#define kUrlCategoryListWithProduct     kUrlBase@"/app/category/list-with-product"
