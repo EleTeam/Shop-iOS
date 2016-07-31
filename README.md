@@ -6,6 +6,7 @@
 #### 服务端是PHP商城，对应项目是 ETShop-for-PHP-Yii2，https://github.com/EleTeam/ETShop-for-PHP-Yii2
 
 ##### 1.App使用MVC框架完成开发。
+
 ##### 2.使用CocoaPods引入各大第三方组件：
 ######     pod 'Masonry', '~> 0.6.4'
 ######     pod 'AFNetworking', '~> 2.6.3'
@@ -17,6 +18,9 @@
 ######     pod 'ActionSheetPicker-3.0', '~> 2.0.3'
 ######     pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
 
+##### 3.安装过程：
+###### 打开Xcode 7.x，选择Source Control 》Check Out 》https://github.com/EleTeam/ETShop-for-iOS.git
+###### Pod的安装，请看：http://blog.csdn.net/eqera/article/details/39312125
 
 ### 部分App界面：
 ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6733.jpg)      ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6734.jpg)      ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6735.jpg)     
