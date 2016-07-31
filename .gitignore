@@ -3,7 +3,9 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 .DS_Store
-Podfile.lock
+
+# 这个文件是需要的，否则Pod会报错
+#Podfile.lock
 
 ## Build generated
 build/
