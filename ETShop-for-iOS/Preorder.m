@@ -1,5 +1,5 @@
 //
-//  PreorderModel.m
+//  Preorder.m
 //  ETShop-for-iOS
 //
 //  Created by EleTeam(Tony Wong) on 15/07/27.
@@ -10,9 +10,9 @@
 //  @license The MIT License (MIT)
 //
 
-#import "PreorderModel.h"
+#import "Preorder.h"
 
-@implementation PreorderModel
+@implementation Preorder
 
 /**
  * 登陆用户从购物车添加预购订单

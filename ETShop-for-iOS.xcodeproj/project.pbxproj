@@ -45,7 +45,7 @@
 		EA1AC2761D3113F6001BF3B5 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2671D3113F6001BF3B5 /* Product.m */; };
 		EA1AC2771D3113F6001BF3B5 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2691D3113F6001BF3B5 /* ProductCategory.m */; };
 		EA1AC2781D3113F7001BF3B5 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26B1D3113F6001BF3B5 /* Cart.m */; };
-		EA1AC2791D3113F7001BF3B5 /* PreorderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26D1D3113F6001BF3B5 /* PreorderModel.m */; };
+		EA1AC2791D3113F7001BF3B5 /* Preorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26D1D3113F6001BF3B5 /* Preorder.m */; };
 		EA1AC27A1D3113F7001BF3B5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26F1D3113F6001BF3B5 /* User.m */; };
 		EA1AC27B1D3113F7001BF3B5 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2711D3113F6001BF3B5 /* AddressModel.m */; };
 		EA1AC27C1D3113F7001BF3B5 /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2731D3113F6001BF3B5 /* AreaModel.m */; };
@@ -224,8 +224,8 @@
 		EA1AC2691D3113F6001BF3B5 /* ProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategory.m; sourceTree = "<group>"; };
 		EA1AC26A1D3113F6001BF3B5 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
 		EA1AC26B1D3113F6001BF3B5 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
-		EA1AC26C1D3113F6001BF3B5 /* PreorderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderModel.h; sourceTree = "<group>"; };
-		EA1AC26D1D3113F6001BF3B5 /* PreorderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderModel.m; sourceTree = "<group>"; };
+		EA1AC26C1D3113F6001BF3B5 /* Preorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preorder.h; sourceTree = "<group>"; };
+		EA1AC26D1D3113F6001BF3B5 /* Preorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preorder.m; sourceTree = "<group>"; };
 		EA1AC26E1D3113F6001BF3B5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EA1AC26F1D3113F6001BF3B5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		EA1AC2701D3113F6001BF3B5 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
@@ -549,8 +549,8 @@
 				EA3F6EE51D47A1ED00CADA05 /* Coupon.m */,
 				EA3F6EE71D47A20200CADA05 /* CouponUser.h */,
 				EA3F6EE81D47A20200CADA05 /* CouponUser.m */,
-				EA1AC26C1D3113F6001BF3B5 /* PreorderModel.h */,
-				EA1AC26D1D3113F6001BF3B5 /* PreorderModel.m */,
+				EA1AC26C1D3113F6001BF3B5 /* Preorder.h */,
+				EA1AC26D1D3113F6001BF3B5 /* Preorder.m */,
 				EA1AC26E1D3113F6001BF3B5 /* User.h */,
 				EA1AC26F1D3113F6001BF3B5 /* User.m */,
 				EA1AC2701D3113F6001BF3B5 /* AddressModel.h */,
@@ -1201,7 +1201,7 @@
 				EA1AC22C1D30B3F8001BF3B5 /* BaseModel.m in Sources */,
 				EA1AC31C1D331923001BF3B5 /* UserLoginView.m in Sources */,
 				EA1AC31F1D331923001BF3B5 /* UserRegisterStep3View.m in Sources */,
-				EA1AC2791D3113F7001BF3B5 /* PreorderModel.m in Sources */,
+				EA1AC2791D3113F7001BF3B5 /* Preorder.m in Sources */,
 				EA1AC2A61D3115E9001BF3B5 /* CartItemAttributeEntity.m in Sources */,
 				EA1AC25F1D30B537001BF3B5 /* TabCartItemCell.m in Sources */,
 				EA1AC2651D31133B001BF3B5 /* ProductController.m in Sources */,

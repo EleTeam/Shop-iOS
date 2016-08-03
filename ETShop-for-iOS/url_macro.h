@@ -11,8 +11,8 @@
 //
 
 //网站地址
-//#define kUrlBase                        @"http://local.eleteamapi.ygcr8.com/v1" //本地地址
-#define kUrlBase                        @"http://eleteamapi.ygcr8.com/v1" //外网
+#define kUrlBase                        @"http://local.eleteamapi.ygcr8.com/v1" //本地地址
+//#define kUrlBase                        @"http://eleteamapi.ygcr8.com/v1" //外网
 #define kUrlCategoryListWithProduct     kUrlBase@"/category/list-with-product"
 //#define kUrlCategoryList                kUrlBase@"/app/category/list"
 //#define kUrlCategoryListWithProduct     kUrlBase@"/app/category/list-with-product"
@@ -37,9 +37,9 @@
 #define kUrlSelectCartItemWithItemId    kUrlBase@"/app/cart/setIsSelected/%@"
 
 //从购物车添加预购订单
-#define kUrlPreorderAdd                 kUrlBase@"/app/preorder/add"
+#define kUrlPreorderAdd                 kUrlBase@"/preorder/add"
 //获取预购订单
-#define kUrlPreorderWithId              kUrlBase@"/app/preorder/%@"
+#define kUrlPreorderWithId              kUrlBase@"/preorder/view?id=%@"
 //设置支付方式
 #define kUrlPreorderSetPayType          kUrlBase@"/app/preorder/select-pay-type"
 
