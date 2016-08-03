@@ -121,6 +121,8 @@
 		EA3F6EE31D47A1A300CADA05 /* CartItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE21D47A1A300CADA05 /* CartItemAttr.m */; };
 		EA3F6EE61D47A1ED00CADA05 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE51D47A1ED00CADA05 /* Coupon.m */; };
 		EA3F6EE91D47A20200CADA05 /* CouponUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE81D47A20200CADA05 /* CouponUser.m */; };
+		EAC20C921D5212BA004FA964 /* PreorderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C911D5212BA004FA964 /* PreorderItem.m */; };
+		EAC20C951D5212E1004FA964 /* PreorderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */; };
 		EAC598F21D38629700020D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC598F11D38629700020D9A /* Assets.xcassets */; };
 		EAC598FD1D3B704B00020D9A /* ProductAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FC1D3B704B00020D9A /* ProductAttr.m */; };
 		EAC599001D3B725A00020D9A /* ProductAttrItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FF1D3B725A00020D9A /* ProductAttrItem.m */; };
@@ -383,6 +385,10 @@
 		EA3F6EE51D47A1ED00CADA05 /* Coupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupon.m; sourceTree = "<group>"; };
 		EA3F6EE71D47A20200CADA05 /* CouponUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponUser.h; sourceTree = "<group>"; };
 		EA3F6EE81D47A20200CADA05 /* CouponUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponUser.m; sourceTree = "<group>"; };
+		EAC20C901D5212BA004FA964 /* PreorderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderItem.h; sourceTree = "<group>"; };
+		EAC20C911D5212BA004FA964 /* PreorderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderItem.m; sourceTree = "<group>"; };
+		EAC20C931D5212E1004FA964 /* PreorderItemAttr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderItemAttr.h; sourceTree = "<group>"; };
+		EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderItemAttr.m; sourceTree = "<group>"; };
 		EAC598F11D38629700020D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC598FB1D3B704B00020D9A /* ProductAttr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttr.h; sourceTree = "<group>"; };
 		EAC598FC1D3B704B00020D9A /* ProductAttr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAttr.m; sourceTree = "<group>"; };
@@ -551,6 +557,10 @@
 				EA3F6EE81D47A20200CADA05 /* CouponUser.m */,
 				EA1AC26C1D3113F6001BF3B5 /* Preorder.h */,
 				EA1AC26D1D3113F6001BF3B5 /* Preorder.m */,
+				EAC20C901D5212BA004FA964 /* PreorderItem.h */,
+				EAC20C911D5212BA004FA964 /* PreorderItem.m */,
+				EAC20C931D5212E1004FA964 /* PreorderItemAttr.h */,
+				EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */,
 				EA1AC26E1D3113F6001BF3B5 /* User.h */,
 				EA1AC26F1D3113F6001BF3B5 /* User.m */,
 				EA1AC2701D3113F6001BF3B5 /* AddressModel.h */,
@@ -1254,6 +1264,7 @@
 				EA1AC2251D30B3AD001BF3B5 /* BaseLoadingView.m in Sources */,
 				EA1AC27A1D3113F7001BF3B5 /* User.m in Sources */,
 				EA1AC3521D331962001BF3B5 /* PreorderSubmitView.m in Sources */,
+				EAC20C951D5212E1004FA964 /* PreorderItemAttr.m in Sources */,
 				EA1AC3751D331A09001BF3B5 /* LocationShopController.m in Sources */,
 				EA1AC2D21D31167A001BF3B5 /* ValidatorUtil.m in Sources */,
 				EA1AC30E1D331912001BF3B5 /* UserForgetPasswordController.m in Sources */,
@@ -1269,6 +1280,7 @@
 				EA1AC23B1D30B443001BF3B5 /* TabMyController.m in Sources */,
 				EA1AC2B11D3115E9001BF3B5 /* OrderStatus.m in Sources */,
 				EA1AC2E51D33180E001BF3B5 /* ProductBottomView.m in Sources */,
+				EAC20C921D5212BA004FA964 /* PreorderItem.m in Sources */,
 				EA1AC2D31D31167A001BF3B5 /* ButtonUtil.m in Sources */,
 				EA3F6EE91D47A20200CADA05 /* CouponUser.m in Sources */,
 				EA1AC27D1D3113F7001BF3B5 /* OrderModel.m in Sources */,
