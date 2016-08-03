@@ -11,12 +11,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PreorderEntity.h"
+#import "Preorder.h"
 
 @interface PreorderSummaryCell : UITableViewCell
 
 + (CGFloat)height;
 
-- (void)fillContentWithPreorder:(PreorderEntity *)preorder;
+- (void)fillContentWithPreorder:(Preorder *)preorder;
 
 @end

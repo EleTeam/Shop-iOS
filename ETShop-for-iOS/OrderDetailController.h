@@ -14,6 +14,6 @@
 
 @interface OrderDetailController : BaseController
 
-- (instancetype)initWithOrderId:(NSString *)orderId;
+- (instancetype)initWithOrderId:(NSNumber *)order_id;
 
 @end

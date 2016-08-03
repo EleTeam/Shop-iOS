@@ -11,7 +11,7 @@
 //
 
 #import "OrderListController.h"
-#import "OrderModel.h"
+#import "Order.h"
 #import "OrderListCell.h"
 
 
@@ -21,31 +21,31 @@
     
     NSMutableArray *_orders; //根据下拉数据可添加个数
     
-    NSString *_roughStatus; //粗略的订单状态, 根据不同的值获取不同的数据
+    NSNumber *_rough_status; //粗略的订单状态, 根据不同的值获取不同的数据
 }
 @end
 
 
 @implementation OrderListController
 
-- (instancetype)initWithRoughStatus:(NSString *)roughtStatus
+- (instancetype)initWithRoughStatus:(NSNumber *)rough_status
 {
     self = [super init];
     if (!self) return nil;
 
-    _roughStatus = roughtStatus;
+    _rough_status = rough_status;
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if ([_roughStatus isEqualToString:kRoughStatusPendingPay]) {
+    if ([_rough_status isEqual:kRoughStatusPendingPay]) {
         self.title = @"待付款";
     }
-    else if ([_roughStatus isEqualToString:kRoughStatusDelivering]) {
+    else if ([_rough_status isEqual:kRoughStatusDelivering]) {
         self.title = @"待收货";
     }
-    else if ([_roughStatus isEqualToString:kRoughStatusFinished]) {
+    else if ([_rough_status isEqual:kRoughStatusFinished]) {
         self.title = @"交易完成";
     }
     else {
@@ -71,8 +71,8 @@
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
     
-    [OrderModel getOrderListWithRoughStatus:_roughStatus success:^(BOOL result, NSNumber *resultCode, NSString *message, NSArray *orders) {
-        if (result) {
+    [Order getOrderListWithRoughStatus:_rough_status success:^(BOOL status, NSNumber *code, NSString *message, NSArray *orders) {
+        if (status) {
             _orders = [orders mutableCopy];
             [_mainTable reloadData];
         } else {

@@ -27,7 +27,7 @@
     return 70;
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier order:(OrderEntity *)order
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier order:(Order *)order
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (!self) return nil;
@@ -43,7 +43,7 @@
     }];
     
     _statusLabel = [UILabel new];
-    _statusLabel.text = order.orderStatus.pendingLabel;
+    _statusLabel.text = order.orderStatus.pending_label;
     _statusLabel.textColor = kColorMainOrange;
     [self addSubview:_statusLabel];
     [_statusLabel mas_makeConstraints:^(MASConstraintMaker *make) {

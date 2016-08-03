@@ -16,8 +16,8 @@
 #import "AddressListCell.h"
 #import "AddressListEmptyCell.h"
 #import "AddressAddBtn.h"
-#import "AreaModel.h"
-#import "AddressModel.h"
+#import "Area.h"
+#import "Address.h"
 
 @interface AddressListController () <UITableViewDataSource, UITableViewDelegate, AddressAddBtnDelegate, AddressListCellDelegate>
 {
@@ -59,8 +59,8 @@
 {
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
-    [AddressModel getAddresses:^(BOOL result, NSNumber *resultCode, NSString *message, NSArray *addresses) {
-        if (result) {
+    [Address getAddresses:^(BOOL status, NSNumber *code, NSString *message, NSArray *addresses) {
+        if (status) {
             _addresses = [addresses mutableCopy];
             [_vTable reloadData];
             
@@ -133,10 +133,10 @@
 
 #pragma mark - AddressListCellDelegate
 
--(void)doSelectAddress:(AddressEntity *)address
+-(void)doSelectAddress:(Address *)address
 {
-    [AddressModel setDefaultWithId:address.id
-                           success:^(BOOL result, NSNumber *resultCode, NSString *message, AddressEntity *address, NSArray *addresses) {
+    [Address setDefaultWithId:address.id
+                           success:^(BOOL status, NSNumber *code, NSString *message, Address *address, NSArray *addresses) {
                                //
                            } failure:^(NSError *error) {
                                //

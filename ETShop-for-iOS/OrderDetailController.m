@@ -11,9 +11,7 @@
 //
 
 #import "OrderDetailController.h"
-#import "OrderEntity.h"
-#import "OrderItemEntity.h"
-#import "OrderModel.h"
+#import "Order.h"
 
 #import "OrderDetailStatusCell.h"
 
@@ -23,9 +21,8 @@ typedef enum{
 
 @interface OrderDetailController () <UITableViewDataSource, UITableViewDelegate>
 {
-    NSString *_orderId;
-    OrderEntity *_order;
-    NSArray *_orderItems;
+    NSNumber *_order_id;
+    Order *_order;
     
     UITableView *_mainTable;
 }
@@ -33,12 +30,12 @@ typedef enum{
 
 @implementation OrderDetailController
 
-- (instancetype)initWithOrderId:(NSString *)orderId
+- (instancetype)initWithOrderId:(NSNumber *)order_id
 {
     self = [super init];
     if (!self) return nil;
     
-    _orderId = orderId;
+    _order_id = order_id;
     
     return self;
 }
@@ -65,11 +62,10 @@ typedef enum{
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
     
-    [OrderModel getOrderWithId:_orderId
-                       success:^(BOOL result, NSNumber *resultCode, NSString *message, OrderEntity *order, NSArray *orderItems) {
-                           if (result) {
+    [Order getOrderWithId:_order_id
+                       success:^(BOOL status, NSNumber *code, NSString *message, Order *order) {
+                           if (status) {
                                _order = order;
-                               _orderItems = orderItems;
                                [_mainTable reloadData];
                            } else {
                                [weakSelf toast:message];
@@ -86,7 +82,7 @@ typedef enum{
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    if (_order.id.length > 0) {
+    if (_order.id > 0) {
         return 1;
     } else {
         return 0;
@@ -95,7 +91,7 @@ typedef enum{
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (_order.id.length > 0) {
+    if (_order.id > 0) {
         return 1;
     } else {
         return 0;

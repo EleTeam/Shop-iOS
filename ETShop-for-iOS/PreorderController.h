@@ -14,6 +14,6 @@
 
 @interface PreorderController : BaseController
 
-- (instancetype)initWithPreorderId:(NSString *)preorderId;
+- (instancetype)initWithPreorderId:(NSNumber *)preorder_id;
 
 @end

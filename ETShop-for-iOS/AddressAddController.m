@@ -13,8 +13,8 @@
 #import "AddressAddController.h"
 #import "AddressListController.h"
 #import "AddressAddView.h"
-#import "AddressModel.h"
-#import "AreaModel.h"
+#import "Address.h"
+#import "Area.h"
 #import "ValidatorUtil.h"
 
 @interface AddressAddController () <AddressAddViewDelegate>
@@ -40,8 +40,8 @@
 {
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
-    [AreaModel getPrefixChainedAreas:^(BOOL result, NSNumber *resultCode, NSString *message, AreaEntity *area, NSArray *chainedAreas) {
-        if (result) {
+    [Area getPrefixChainedAreas:^(BOOL status, NSNumber *code, NSString *message, Area *area, NSArray *chainedAreas) {
+        if (status) {
             [_vView setChainedAreas:chainedAreas];
         } else {
             [weakSelf toast:message];
@@ -55,7 +55,7 @@
 
 #pragma mark - AddressAddViewDelegate
 
-- (void)doClickSaveBtnWithAreaId:(NSString *)areaId
+- (void)doClickSaveBtnWithAreaId:(NSNumber *)area_id
                        telephone:(NSString *)telephone
                           detail:(NSString *)detail
                         fullname:(NSString *)fullname
@@ -71,7 +71,7 @@
         return;
     }
     
-    if (areaId.length <= 0) {
+    if (area_id <= 0) {
         [self toast:@"请选择街区"];
         return;
     }
@@ -83,12 +83,12 @@
     
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
-    [AddressModel addWithAreaId:areaId
+    [Address addWithAreaId:area_id
                       telephone:telephone
                          detail:detail
                        fullname:fullname
-                        success:^(BOOL result, NSNumber *resultCode, NSString *message, AddressEntity *address, NSArray *addresses) {
-                            if (result) {
+                        success:^(BOOL status, NSNumber *code, NSString *message, Address *address, NSArray *addresses) {
+                            if (status) {
                                 NSDictionary *userInfo = [NSDictionary dictionaryWithObject:address forKey:@"address"];
                                 [[NSNotificationCenter defaultCenter] postNotificationName:kNotifyPreorderAddressDidChanged object:nil userInfo:userInfo];
                                 [[NSNotificationCenter defaultCenter] postNotificationName:kNotifyPreorderAddressesDidChanged object:nil userInfo:userInfo];

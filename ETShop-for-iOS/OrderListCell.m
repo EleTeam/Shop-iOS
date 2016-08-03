@@ -47,7 +47,7 @@
     }];
     
     _statusLabel = [UILabel new];
-    _statusLabel.text = order.orderStatus.pendingLabel;
+    _statusLabel.text = order.orderStatus.pending_label;
     _statusLabel.textColor = kColorMainOrange;
     _statusLabel.font = [UIFont systemFontOfSize:13];
     _statusLabel.textAlignment = NSTextAlignmentCenter;

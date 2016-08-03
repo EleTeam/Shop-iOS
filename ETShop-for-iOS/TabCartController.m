@@ -15,7 +15,7 @@
 #import "Cart.h"
 #import "TabCartItemCell.h"
 #import "TabCartSubmitBar.h"
-#import "PreorderModel.h"
+#import "Preorder.h"
 
 @interface TabCartController () <UITableViewDataSource, UITableViewDelegate, TabCartItemCellDelegate, TabCartSubmitBarDelegate>
 {
@@ -200,16 +200,16 @@
     [self showLoadingView];
     
     //用户没有登陆则跳到登陆页面
-    [PreorderModel add:^(BOOL result, NSNumber *resultCode, NSString *message, NSString *preorderId) {
+    [Preorder add:^(BOOL result, NSNumber *code, NSString *message, NSNumber *id) {
         NSNumber *resultCodeUserNotLogedin = kResultCodeUserNotLogedin;
         NSNumber *resultCodeUserSuccess = kResultCodeSuccess;
-        if ([resultCode isEqualToNumber:resultCodeUserNotLogedin]) {
+        if ([code isEqual:resultCodeUserNotLogedin]) {
             UserLoginController *userController = [UserLoginController new];
             userController.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:userController animated:YES];
         }
-        else if ([resultCode isEqualToNumber:resultCodeUserSuccess]) {
-            PreorderController *preorderController = [[PreorderController alloc] initWithPreorderId:preorderId];
+        else if ([code isEqual:resultCodeUserSuccess]) {
+            PreorderController *preorderController = [[PreorderController alloc] initWithPreorderId:id];
             preorderController.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:preorderController animated:YES];
         } else {

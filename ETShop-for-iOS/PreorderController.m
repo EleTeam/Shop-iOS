@@ -16,8 +16,8 @@
 #import "AddressEditController.h"
 #import "OrderSuccessController.h"
 
-#import "PreorderModel.h"
-#import "OrderModel.h"
+#import "Preorder.h"
+#import "Order.h"
 
 #import "PreorderAddressCell.h"
 #import "PreorderPayCell.h"
@@ -39,11 +39,10 @@ typedef enum {
 @interface PreorderController () <UITableViewDataSource, UITableViewDelegate, PreorderAddressCellDelegate,
                                 PreorderPayCellDelegate, PreorderNoteCellDelegate, PreorderSubmitViewDelegate>
 {
-    NSString *_preorderId;
-    PreorderEntity *_preorder;
-    __block AddressEntity *_address;
+    NSNumber *_preorder_id;
+    Preorder *_preorder;
+    __block Address *_address;
     NSString *_note; //订单备注
-    NSArray *_preorderItems;
     
     UITableView *_vTable;
     PreorderSubmitView *_submitView;
@@ -55,12 +54,12 @@ typedef enum {
 
 @implementation PreorderController
 
-- (instancetype)initWithPreorderId:(NSString *)preorderId;
+- (instancetype)initWithPreorderId:(NSNumber *)preorder_id;
 {
     self = [super init];
     if (!self) return nil;
     
-    _preorderId = preorderId;
+    _preorder_id = preorder_id;
     return self;
 }
 
@@ -100,29 +99,28 @@ typedef enum {
 {
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
-    [PreorderModel getWithPreorderId:_preorderId
-                             success:^(BOOL result, NSNumber *resultCode, NSString *message, PreorderEntity *preorder, NSArray *preorderItems, AddressEntity *address) {
-                                 if (result) {
-                                     _preorder = preorder;
-                                     _preorderItems = preorderItems;
-                                     _address = address;
-                                     [_vTable reloadData];
-                                     [_submitView fillContentWithPreorder:_preorder];
-                                 } else {
-                                     [self toast:message];
-                                 }
-                                 [self hideLoadingView];
-                             } failure:^(NSError *error) {
-                                 [self toastWithError:error];
-                                 [self hideLoadingView];
-                             }];
+    [Preorder getWithId:_preorder_id
+                success:^(BOOL status, NSNumber *code, NSString *message, Preorder *preorder, Address *address) {
+                    if (status) {
+                        _preorder = preorder;
+                        _address = address;
+                        [_vTable reloadData];
+                        [_submitView fillContentWithPreorder:_preorder];
+                    } else {
+                        [self toast:message];
+                    }
+                    [self hideLoadingView];
+                } failure:^(NSError *error) {
+                    [self toastWithError:error];
+                    [self hideLoadingView];
+                }];
 }
 
 //响应通知中心的方法
 - (void)resetAddress:(NSNotification *)notification
 {
-    AddressEntity *address = [[notification userInfo] objectForKey:@"address"];
-    if (address.id.length > 0) {
+    Address *address = [[notification userInfo] objectForKey:@"address"];
+    if (address.id > 0) {
         _address = address;
     }
     [_vTable reloadData];
@@ -138,7 +136,7 @@ typedef enum {
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (_preorderItems.count > 0) {
+    if (_preorder.preorderItems.count > 0) {
         return 1;
     } else {
         return 0;
@@ -166,14 +164,14 @@ typedef enum {
             cell = [[PreorderPayCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
             cell.delegate = self;
         }
-        [cell setPayType:_preorder.payType];
+        [cell setPayType:_preorder.pay_type];
         return cell;
     }
     else if (section == eSectionProduct) {
         identifier = @"PreorderItemsCell";
         PreorderItemsCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
         if (!cell) {
-            cell = [[PreorderItemsCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier preorderItems:_preorderItems];
+            cell = [[PreorderItemsCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier preorderItems:_preorder.preorderItems];
         }
         return cell;
     }
@@ -223,7 +221,7 @@ typedef enum {
         height = [PreorderPayCell height];
     }
     else if (section == eSectionProduct) {
-        height = [PreorderItemsCell heightWithPreorderItems:_preorderItems];
+        height = [PreorderItemsCell heightWithPreorderItems:_preorder.preorderItems];
     }
     else if (section == eSectionNote) {
         height = [PreorderNoteCell height];
@@ -259,14 +257,14 @@ typedef enum {
 }
 
 #pragma mark - PreorderPayCellDelegate
-- (void)doSelectPayType:(NSString *)payType
+- (void)doSelectPayType:(NSNumber *)pay_type
 {
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
-    [PreorderModel setPayTypeWithPreorderId:_preorder.id
-                                    payType:payType
-                                    success:^(BOOL result, NSNumber *resultCode, NSString *message, PreorderEntity *preorder) {
-                                        if (result) {
+    [Preorder setPayTypeWithId:_preorder.id
+                                    payType:pay_type
+                                    success:^(BOOL status, NSNumber *code, NSString *message, Preorder*preorder) {
+                                        if (status) {
                                             _preorder = preorder;
                                             [_vTable reloadData];
                                         } else {
@@ -296,11 +294,11 @@ typedef enum {
     __weak typeof (self) weakSelf = self;
     [weakSelf showLoadingView];
     
-    [OrderModel addWithPreorderId:_preorder.id
+    [Order addWithPreorderId:_preorder.id
                         addressId:_address.id
                            notice:_note
-                          success:^(BOOL result, NSNumber *resultCode, NSString *message, OrderEntity *order) {
-                              if (result) {
+                          success:^(BOOL status, NSNumber *code, NSString *message, Order *order) {
+                              if (status) {
                                   OrderSuccessController *ctrl1 = [[OrderSuccessController alloc] initWithOrder:order];
                                   [self.navigationController pushViewController:ctrl1 animated:YES];
                               } else {

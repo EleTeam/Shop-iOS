@@ -11,7 +11,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PreorderEntity.h"
+#import "Preorder.h"
 
 @protocol PreorderSubmitViewDelegate <NSObject>
 
@@ -26,6 +26,6 @@
 
 + (CGFloat)height;
 
-- (void)fillContentWithPreorder:(PreorderEntity *)preorder;
+- (void)fillContentWithPreorder:(Preorder *)preorder;
 
 @end

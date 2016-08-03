@@ -127,12 +127,12 @@
     return self;
 }
 
-- (void)fillContentWithPreorder:(PreorderEntity *)preorder
+- (void)fillContentWithPreorder:(Preorder *)preorder
 {
-    if (preorder.id.length > 0) {
-        _productPriceLabel.text = [FormatUtil formatPrice:preorder.originTotalPrice];
-        _couponPriceLabel.text = [NSString stringWithFormat:@"- %@", [FormatUtil formatPrice:preorder.couponUserTotalPrice]];
-        _totalPriceLabel.text = [FormatUtil formatPrice:preorder.totalPrice];
+    if (preorder.id > 0) {
+        _productPriceLabel.text = [FormatUtil formatPrice:preorder.origin_total_price];
+        _couponPriceLabel.text = [NSString stringWithFormat:@"- %@", [FormatUtil formatPrice:preorder.coupon_item_total_price]];
+        _totalPriceLabel.text = [FormatUtil formatPrice:preorder.total_price];
     }
 }
 

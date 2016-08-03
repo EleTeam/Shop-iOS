@@ -15,7 +15,7 @@
 
 @protocol PreorderPayCellDelegate <NSObject>
 
-- (void)doSelectPayType:(NSString *)payType;
+- (void)doSelectPayType:(NSNumber *)pay_type;
 
 @end
 
@@ -26,6 +26,6 @@
 
 + (CGFloat)height;
 
-- (void)setPayType:(NSString *)payType;
+- (void)setPayType:(NSNumber *)pay_type;
 
 @end

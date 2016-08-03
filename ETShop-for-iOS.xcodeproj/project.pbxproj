@@ -47,9 +47,9 @@
 		EA1AC2781D3113F7001BF3B5 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26B1D3113F6001BF3B5 /* Cart.m */; };
 		EA1AC2791D3113F7001BF3B5 /* Preorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26D1D3113F6001BF3B5 /* Preorder.m */; };
 		EA1AC27A1D3113F7001BF3B5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26F1D3113F6001BF3B5 /* User.m */; };
-		EA1AC27B1D3113F7001BF3B5 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2711D3113F6001BF3B5 /* AddressModel.m */; };
-		EA1AC27C1D3113F7001BF3B5 /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2731D3113F6001BF3B5 /* AreaModel.m */; };
-		EA1AC27D1D3113F7001BF3B5 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2751D3113F6001BF3B5 /* OrderModel.m */; };
+		EA1AC27B1D3113F7001BF3B5 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2711D3113F6001BF3B5 /* Address.m */; };
+		EA1AC27C1D3113F7001BF3B5 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2731D3113F6001BF3B5 /* Area.m */; };
+		EA1AC27D1D3113F7001BF3B5 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2751D3113F6001BF3B5 /* Order.m */; };
 		EA1AC2A21D3115E9001BF3B5 /* ProductAttributeItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */; };
 		EA1AC2A31D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2841D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m */; };
 		EA1AC2A41D3115E9001BF3B5 /* ProductEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2861D3115E9001BF3B5 /* ProductEntity.m */; };
@@ -123,6 +123,8 @@
 		EA3F6EE91D47A20200CADA05 /* CouponUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE81D47A20200CADA05 /* CouponUser.m */; };
 		EAC20C921D5212BA004FA964 /* PreorderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C911D5212BA004FA964 /* PreorderItem.m */; };
 		EAC20C951D5212E1004FA964 /* PreorderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */; };
+		EAC20C9B1D522CE5004FA964 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9A1D522CE5004FA964 /* OrderItem.m */; };
+		EAC20C9E1D522CF7004FA964 /* OrderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9D1D522CF7004FA964 /* OrderItemAttr.m */; };
 		EAC598F21D38629700020D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC598F11D38629700020D9A /* Assets.xcassets */; };
 		EAC598FD1D3B704B00020D9A /* ProductAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FC1D3B704B00020D9A /* ProductAttr.m */; };
 		EAC599001D3B725A00020D9A /* ProductAttrItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FF1D3B725A00020D9A /* ProductAttrItem.m */; };
@@ -230,12 +232,12 @@
 		EA1AC26D1D3113F6001BF3B5 /* Preorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preorder.m; sourceTree = "<group>"; };
 		EA1AC26E1D3113F6001BF3B5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EA1AC26F1D3113F6001BF3B5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		EA1AC2701D3113F6001BF3B5 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
-		EA1AC2711D3113F6001BF3B5 /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
-		EA1AC2721D3113F6001BF3B5 /* AreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaModel.h; sourceTree = "<group>"; };
-		EA1AC2731D3113F6001BF3B5 /* AreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaModel.m; sourceTree = "<group>"; };
-		EA1AC2741D3113F6001BF3B5 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
-		EA1AC2751D3113F6001BF3B5 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		EA1AC2701D3113F6001BF3B5 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		EA1AC2711D3113F6001BF3B5 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		EA1AC2721D3113F6001BF3B5 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		EA1AC2731D3113F6001BF3B5 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		EA1AC2741D3113F6001BF3B5 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		EA1AC2751D3113F6001BF3B5 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 		EA1AC2811D3115E9001BF3B5 /* ProductAttributeItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttributeItemEntity.h; sourceTree = "<group>"; };
 		EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAttributeItemEntity.m; sourceTree = "<group>"; };
 		EA1AC2831D3115E9001BF3B5 /* ProductAttributeItemValueEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttributeItemValueEntity.h; sourceTree = "<group>"; };
@@ -389,6 +391,10 @@
 		EAC20C911D5212BA004FA964 /* PreorderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderItem.m; sourceTree = "<group>"; };
 		EAC20C931D5212E1004FA964 /* PreorderItemAttr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderItemAttr.h; sourceTree = "<group>"; };
 		EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderItemAttr.m; sourceTree = "<group>"; };
+		EAC20C991D522CE5004FA964 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
+		EAC20C9A1D522CE5004FA964 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
+		EAC20C9C1D522CF7004FA964 /* OrderItemAttr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItemAttr.h; sourceTree = "<group>"; };
+		EAC20C9D1D522CF7004FA964 /* OrderItemAttr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItemAttr.m; sourceTree = "<group>"; };
 		EAC598F11D38629700020D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC598FB1D3B704B00020D9A /* ProductAttr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttr.h; sourceTree = "<group>"; };
 		EAC598FC1D3B704B00020D9A /* ProductAttr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAttr.m; sourceTree = "<group>"; };
@@ -533,6 +539,10 @@
 		EA1AC2031D30B1D6001BF3B5 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				EA1AC2701D3113F6001BF3B5 /* Address.h */,
+				EA1AC2711D3113F6001BF3B5 /* Address.m */,
+				EA1AC2721D3113F6001BF3B5 /* Area.h */,
+				EA1AC2731D3113F6001BF3B5 /* Area.m */,
 				EA1AC36F1D3319F4001BF3B5 /* LocationAnnotationModel.h */,
 				EA1AC3701D3319F4001BF3B5 /* LocationAnnotationModel.m */,
 				EA1AC2661D3113F6001BF3B5 /* Product.h */,
@@ -561,14 +571,16 @@
 				EAC20C911D5212BA004FA964 /* PreorderItem.m */,
 				EAC20C931D5212E1004FA964 /* PreorderItemAttr.h */,
 				EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */,
+				EA1AC2741D3113F6001BF3B5 /* Order.h */,
+				EA1AC2751D3113F6001BF3B5 /* Order.m */,
+				EAC20C991D522CE5004FA964 /* OrderItem.h */,
+				EAC20C9A1D522CE5004FA964 /* OrderItem.m */,
+				EAC20C9C1D522CF7004FA964 /* OrderItemAttr.h */,
+				EAC20C9D1D522CF7004FA964 /* OrderItemAttr.m */,
+				EA1AC29F1D3115E9001BF3B5 /* OrderStatus.h */,
+				EA1AC2A01D3115E9001BF3B5 /* OrderStatus.m */,
 				EA1AC26E1D3113F6001BF3B5 /* User.h */,
 				EA1AC26F1D3113F6001BF3B5 /* User.m */,
-				EA1AC2701D3113F6001BF3B5 /* AddressModel.h */,
-				EA1AC2711D3113F6001BF3B5 /* AddressModel.m */,
-				EA1AC2721D3113F6001BF3B5 /* AreaModel.h */,
-				EA1AC2731D3113F6001BF3B5 /* AreaModel.m */,
-				EA1AC2741D3113F6001BF3B5 /* OrderModel.h */,
-				EA1AC2751D3113F6001BF3B5 /* OrderModel.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -783,8 +795,6 @@
 				EA1AC29C1D3115E9001BF3B5 /* OrderItemEntity.m */,
 				EA1AC29D1D3115E9001BF3B5 /* OrderItemAttributeEntity.h */,
 				EA1AC29E1D3115E9001BF3B5 /* OrderItemAttributeEntity.m */,
-				EA1AC29F1D3115E9001BF3B5 /* OrderStatus.h */,
-				EA1AC2A01D3115E9001BF3B5 /* OrderStatus.m */,
 			);
 			name = entities;
 			sourceTree = "<group>";
@@ -1204,6 +1214,7 @@
 				EA1AC2261D30B3AD001BF3B5 /* NetworkBrokenView.m in Sources */,
 				EA3F6EE01D47A18B00CADA05 /* CartItem.m in Sources */,
 				EA1AC3511D331962001BF3B5 /* PreorderSummaryCell.m in Sources */,
+				EAC20C9B1D522CE5004FA964 /* OrderItem.m in Sources */,
 				EA1AC31D1D331923001BF3B5 /* UserRegisterStep1View.m in Sources */,
 				EA1AC30B1D331912001BF3B5 /* UserRegisterStep3Controller.m in Sources */,
 				EA1AC2A51D3115E9001BF3B5 /* CartItemEntity.m in Sources */,
@@ -1217,7 +1228,7 @@
 				EA1AC2651D31133B001BF3B5 /* ProductController.m in Sources */,
 				EA1AC2501D30B51C001BF3B5 /* TabTopicTopCell.m in Sources */,
 				EA1AC35F1D3319AF001BF3B5 /* AddressEditController.m in Sources */,
-				EA1AC27C1D3113F7001BF3B5 /* AreaModel.m in Sources */,
+				EA1AC27C1D3113F7001BF3B5 /* Area.m in Sources */,
 				EA1AC3211D331923001BF3B5 /* UserInfoView.m in Sources */,
 				EA1AC2781D3113F7001BF3B5 /* Cart.m in Sources */,
 				EA1AC2CF1D31167A001BF3B5 /* FormatUtil.m in Sources */,
@@ -1256,7 +1267,7 @@
 				EA1AC2291D30B3E6001BF3B5 /* BaseEntity.m in Sources */,
 				EA1AC3081D331912001BF3B5 /* UserLoginController.m in Sources */,
 				EA1AC21B1D30B32F001BF3B5 /* SDCycleScrollView.m in Sources */,
-				EA1AC27B1D3113F7001BF3B5 /* AddressModel.m in Sources */,
+				EA1AC27B1D3113F7001BF3B5 /* Address.m in Sources */,
 				EA1AC1D21D301105001BF3B5 /* AppDelegate.m in Sources */,
 				EA1AC2AE1D3115E9001BF3B5 /* OrderEntity.m in Sources */,
 				EA1AC34C1D331962001BF3B5 /* PreorderPayCell.m in Sources */,
@@ -1283,7 +1294,7 @@
 				EAC20C921D5212BA004FA964 /* PreorderItem.m in Sources */,
 				EA1AC2D31D31167A001BF3B5 /* ButtonUtil.m in Sources */,
 				EA3F6EE91D47A20200CADA05 /* CouponUser.m in Sources */,
-				EA1AC27D1D3113F7001BF3B5 /* OrderModel.m in Sources */,
+				EA1AC27D1D3113F7001BF3B5 /* Order.m in Sources */,
 				EA1AC2391D30B443001BF3B5 /* TabTopicController.m in Sources */,
 				EA1AC2761D3113F6001BF3B5 /* Product.m in Sources */,
 				EA1AC2111D30B31E001BF3B5 /* TAAnimatedDotView.m in Sources */,
@@ -1297,6 +1308,7 @@
 				EA1AC2AB1D3115E9001BF3B5 /* AreaEntity.m in Sources */,
 				EA1AC2511D30B51C001BF3B5 /* TabTopicProductCell.m in Sources */,
 				EA1AC34F1D331962001BF3B5 /* PreorderNoteCell.m in Sources */,
+				EAC20C9E1D522CF7004FA964 /* OrderItemAttr.m in Sources */,
 				EAC599031D3B729800020D9A /* ProductAttrItemValue.m in Sources */,
 				EA1AC36A1D3319C3001BF3B5 /* AddressListCell.m in Sources */,
 				EA1AC36B1D3319C3001BF3B5 /* AddressListEmptyCell.m in Sources */,

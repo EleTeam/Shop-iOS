@@ -1,5 +1,5 @@
 //
-//  AreaModel.h
+//  Area.h
 //  ETShop-for-iOS
 //
 //  Created by EleTeam(Tony Wong) on 15/07/27.
@@ -10,13 +10,13 @@
 //  @license The MIT License (MIT)
 //
 
-#import "BaseModel.h"
-#import "AreaEntity.h"
+#import <Foundation/Foundation.h>
+#import "MJExtension.h"
 
-@interface AreaModel : BaseModel
+@interface Area : NSObject
 
 //获得系统默认的区域信息
-+ (void)getPrefixChainedAreas:(void(^)(BOOL result, NSNumber *resultCode, NSString *message, AreaEntity *area, NSArray *chainedAreas))success
++ (void)getPrefixChainedAreas:(void(^)(BOOL status, NSNumber *code, NSString *message, Area *area, NSArray *chainedAreas))success
                        failure:(void(^)(NSError *error))failure;
 
 @end

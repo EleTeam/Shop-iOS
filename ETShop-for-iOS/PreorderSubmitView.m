@@ -91,10 +91,10 @@
     return self;
 }
 
-- (void)fillContentWithPreorder:(PreorderEntity *)preorder
+- (void)fillContentWithPreorder:(Preorder *)preorder
 {
-    if (preorder.id.length > 0) {
-        _totalPriceLabel.text = [FormatUtil formatPrice:preorder.totalPrice];
+    if (preorder.id > 0) {
+        _totalPriceLabel.text = [FormatUtil formatPrice:preorder.total_price];
     }
 }
 

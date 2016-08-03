@@ -10,14 +10,15 @@
 //  @license The MIT License (MIT)
 //
 
-#import "BaseEntity.h"
+#import <Foundation/Foundation.h>
+#import "MJExtension.h"
 
-@interface OrderStatus : BaseEntity
+@interface OrderStatus : NSObject
 
-@property (nonatomic, copy) NSString *status;
-@property (nonatomic, copy) NSString *roughPayType; //关联于 Order.roughPayType
-@property (nonatomic, copy) NSString *statusUnion; //格式：roughPayType-status 如 1-100
+@property (nonatomic, copy) NSNumber *status;
+@property (nonatomic, copy) NSNumber *rough_pay_type; //关联于 rough_pay_type
+@property (nonatomic, copy) NSString *status_union; //格式：rough_pay_type-status 如 1-100
 @property (nonatomic, copy) NSString *label;
-@property (nonatomic, copy) NSString *pendingLabel;
+@property (nonatomic, copy) NSString *pending_label;
 
 @end
