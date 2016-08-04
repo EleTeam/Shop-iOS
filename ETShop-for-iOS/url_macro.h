@@ -12,7 +12,7 @@
 
 //网站地址
 #define kUrlBase                        @"http://local.eleteamapi.ygcr8.com/v1" //本地地址
-//#define kUrlBase                        @"http://eleteamapi.ygcr8.com/v1" //外网
+//#define kUrlBase                        @"http://eleteamapi.ygcr8.com/v1" //在线服务器
 #define kUrlCategoryListWithProduct     kUrlBase@"/category/list-with-product"
 //#define kUrlCategoryList                kUrlBase@"/app/category/list"
 //#define kUrlCategoryListWithProduct     kUrlBase@"/app/category/list-with-product"
