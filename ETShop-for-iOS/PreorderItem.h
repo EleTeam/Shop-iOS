@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MJExtension.h"
+#import "PreorderItemAttr.h"
 
 @interface PreorderItem : NSObject
 

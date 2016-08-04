@@ -39,6 +39,7 @@
 @property (nonatomic, strong) NSString *rough_pay_type;
 @property (nonatomic, strong) NSString *min_total_price_label; //最少支付金额标记
 @property (nonatomic, strong) NSString *coupon_item_id;//优惠券id, 对应CouponItem
+
 @property (nonatomic, strong) NSArray *preorderItems;
 
 //===== 与服务器交互的方法 =====//

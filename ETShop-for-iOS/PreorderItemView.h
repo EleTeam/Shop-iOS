@@ -11,12 +11,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PreorderItemEntity.h"
+#import "PreorderItem.h"
 
 @interface PreorderItemView : UIView
 
 + (CGFloat)height;
 
-- (void)setupWithPreorderItem:(PreorderItemEntity *)preorderItem;
+- (void)setupWithPreorderItem:(PreorderItem *)preorderItem;
 
 @end

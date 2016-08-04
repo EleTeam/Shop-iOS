@@ -14,21 +14,20 @@
 @property (nonatomic, strong) NSNumber *id;
 @property (nonatomic, strong) NSNumber *item_id;
 /**
- * 来自 ProductAttributeItemEntity的值
+ * 来自 ProductAttrItem 的值
  */
-@property (nonatomic, strong) NSString *attributeItemId;
-@property (nonatomic, strong) NSString *attributeItemName;
-@property (nonatomic, strong) NSString *attributeItemPrintName;
-@property (nonatomic, strong) NSNumber *attributeItemSort;
-
+@property (nonatomic, strong) NSString *attr_item_id;
+@property (nonatomic, strong) NSString *attr_item_name;
+@property (nonatomic, strong) NSString *attr_item_print_name;
+@property (nonatomic, strong) NSNumber *attr_item_sort;
 /**
- * 来自 ProductAttributeItemValueEntity的值
+ * 来自 ProductAttrItemValue 的值
  */
-@property (nonatomic, strong) NSString *attributeItemValueId;
-@property (nonatomic, strong) NSString *attributeItemValueName;
-@property (nonatomic, strong) NSString *attributeItemValuePrintName;
-@property (nonatomic, strong) NSNumber *attributeItemValuePrice;
-@property (nonatomic, strong) NSNumber *attributeItemValueSort;
-@property (nonatomic, strong) NSNumber *attributeItemValueIsStandard;
+@property (nonatomic, strong) NSString *attr_item_value_id;
+@property (nonatomic, strong) NSString *attr_item_value_name;
+@property (nonatomic, strong) NSString *attr_item_value_print_name;
+@property (nonatomic, strong) NSNumber *attr_item_value_price;
+@property (nonatomic, strong) NSNumber *attr_item_value_sort;
+@property (nonatomic, strong) NSNumber *attr_item_value_is_standard;
 
 @end

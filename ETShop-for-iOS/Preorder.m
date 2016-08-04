@@ -14,6 +14,13 @@
 
 @implementation Preorder
 
+// 实现这个方法：告诉MJExtension框架数组里面装的是什么模型
++ (NSDictionary *)objectClassInArray{
+    return @{
+             @"preorderItems" : [PreorderItem class]
+             };
+}
+
 /**
  * 登陆用户从购物车添加预购订单
  *  只需要访问kUrlPreorderAdd地址即可，不用在本地提交购物车表单

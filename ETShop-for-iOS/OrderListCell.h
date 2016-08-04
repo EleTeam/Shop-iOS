@@ -11,12 +11,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OrderEntity.h"
+#import "Order.h"
 
 @interface OrderListCell : UITableViewCell
 
 + (CGFloat)height;
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier order:(OrderEntity *)order;
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier order:(Order *)order;
 
 @end

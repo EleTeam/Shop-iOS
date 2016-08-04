@@ -16,7 +16,7 @@
 
 @interface OrderSuccessController () <OrderSuccessViewDelegate>
 {
-    OrderEntity *_order;
+    Order *_order;
     
     OrderSuccessView *_successView;
 }
@@ -25,7 +25,7 @@
 
 @implementation OrderSuccessController
 
-- (instancetype)initWithOrder:(OrderEntity *)order
+- (instancetype)initWithOrder:(Order *)order
 {
     self = [super init];
     if (!self) return nil;

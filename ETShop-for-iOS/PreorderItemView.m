@@ -30,10 +30,10 @@
     return 64;
 }
 
-- (void)setupWithPreorderItem:(PreorderItemEntity *)preorderItem
+- (void)setupWithPreorderItem:(PreorderItem *)preorderItem
 {
     _vImage = [UIImageView new];
-    [_vImage sd_setImageWithURL:[NSURL URLWithString:preorderItem.imageSmall] placeholderImage:[UIImage imageNamed:@"image_holder"]];
+    [_vImage sd_setImageWithURL:[NSURL URLWithString:preorderItem.image_small] placeholderImage:[UIImage imageNamed:@"image_holder"]];
     [self addSubview:_vImage];
     [_vImage mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self).with.offset(16);
@@ -51,8 +51,8 @@
     }];
     
     _vAttrs = [UILabel new];
-    if (preorderItem.attrPrintNames.length > 0) {
-        _vAttrs.text = [NSString stringWithFormat:@"(%@)", preorderItem.attrPrintNames];
+    if (preorderItem.attr_print_names.length > 0) {
+        _vAttrs.text = [NSString stringWithFormat:@"(%@)", preorderItem.attr_print_names];
     }
     _vAttrs.font = [UIFont systemFontOfSize:14];
     _vAttrs.textColor = [UIColor hexColor:@"a1a1a1"];

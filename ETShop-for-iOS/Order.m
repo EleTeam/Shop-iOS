@@ -11,8 +11,16 @@
 //
 
 #import "Order.h"
+#import "OrderItem.h"
 
 @implementation Order
+
+// 实现这个方法：告诉MJExtension框架数组里面装的是什么模型
++ (NSDictionary *)objectClassInArray{
+    return @{
+             @"orderItems" : [OrderItem class]
+             };
+}
 
 //提交订单
 + (void)addWithPreorderId:(NSNumber *)preorder_id

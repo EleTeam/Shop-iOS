@@ -14,7 +14,7 @@
 
 @interface PreorderPayCell ()
 {
-    NSString    *_payType;
+    NSNumber    *_pay_type;
     
     UILabel     *_vPayTitle;
     
@@ -215,15 +215,15 @@
     return label;
 }
 
-- (void)setPayType:(NSString *)payType
+- (void)setPayType:(NSNumber *)pay_type
 {
-    if (payType.length <= 0) {
+    if (pay_type <= 0) {
         return;
     }
     
-    _payType = payType;
+    _pay_type = pay_type;
     
-    if ([_payType isEqualToString:kPayTypeWx]) {
+    if ([pay_type isEqual:kPayTypeWx]) {
         _vPayWxBtn.layer.borderColor = kColorMainRed.CGColor;
         _vPayWxImage.hidden = NO;
         
@@ -233,7 +233,7 @@
         _vPayCashBtn.layer.borderColor = kColorUnderline.CGColor;
         _vPayCashImage.hidden = YES;
     }
-    else if ([_payType isEqualToString:kPayTypeAli]) {
+    else if ([_pay_type isEqual:kPayTypeAli]) {
         _vPayWxBtn.layer.borderColor = kColorUnderline.CGColor;
         _vPayWxImage.hidden = YES;
         
@@ -243,7 +243,7 @@
         _vPayCashBtn.layer.borderColor = kColorUnderline.CGColor;
         _vPayCashImage.hidden = YES;
     }
-    else if ([_payType isEqualToString:kPayTypeCash]) {
+    else if ([_pay_type isEqual:kPayTypeCash]) {
         _vPayWxBtn.layer.borderColor = kColorUnderline.CGColor;
         _vPayWxImage.hidden = YES;
         
@@ -257,17 +257,17 @@
 
 - (void)selectPayType:(UIButton *)sender
 {
-    NSString *payType;
+    NSString *pay_type;
     if (sender == _vPayWxBtn) {
-        payType = kPayTypeWx;
+        pay_type = kPayTypeWx;
     }
     else if (sender == _vPayAliBtn) {
-        payType = kPayTypeAli;
+        pay_type = kPayTypeAli;
     }
     else if (sender == _vPayCashBtn) {
-        payType = kPayTypeCash;
+        pay_type = kPayTypeCash;
     }
-    [self.delegate doSelectPayType:payType];
+    [self.delegate doSelectPayType:pay_type];
 }
 
 @end

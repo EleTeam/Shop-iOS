@@ -10,4 +10,11 @@
 
 @implementation PreorderItem
 
+// 实现这个方法：告诉MJExtension框架数组里面装的是什么模型
++ (NSDictionary *)objectClassInArray{
+    return @{
+             @"preorderItemAttrs" : [PreorderItemAttr class]
+             };
+}
+
 @end

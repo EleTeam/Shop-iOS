@@ -14,7 +14,7 @@
 
 @interface OrderListCell ()
 {
-    NSString *_orderId;
+    NSNumber *_order_id;
     
     UILabel *_timeLabel;
     UILabel *_statusLabel;
@@ -29,16 +29,16 @@
     return 76;
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier order:(OrderEntity *)order
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier order:(Order *)order
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (!self) return nil;
     
     self.selectionStyle = UITableViewCellSelectionStyleNone;
-    _orderId = order.id;
+    _order_id = order.id;
     
     _timeLabel = [UILabel new];
-    _timeLabel.text = [NSString stringWithFormat:@"下单时间: %@", order.createDateString];
+    _timeLabel.text = [NSString stringWithFormat:@"下单时间: %@", order.create_date_string];
     _timeLabel.font = [UIFont systemFontOfSize:13];
     [self addSubview:_timeLabel];
     [_timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -64,9 +64,9 @@
     
     NSArray *orderItems = order.orderItems;
     int i = 0;
-    for (OrderItemEntity *orderItem in orderItems) {
+    for (OrderItem *orderItem in orderItems) {
         UIImageView *imageView = [UIImageView new];
-        [imageView sd_setImageWithURL:[NSURL URLWithString:orderItem.imageSmall] placeholderImage:[UIImage imageNamed:@"image_hoder"]];
+        [imageView sd_setImageWithURL:[NSURL URLWithString:orderItem.image_small] placeholderImage:[UIImage imageNamed:@"image_hoder"]];
         [self addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self).with.offset((i * 50) + 8);

@@ -16,7 +16,7 @@
 
 @interface OrderSuccessView ()
 {
-    OrderEntity *_order;
+    Order *_order;
     
     UIImageView *_successImage;
     UILabel *_successLabel;
@@ -35,7 +35,7 @@
 
 @implementation OrderSuccessView
 
-- (instancetype)initWithFrame:(CGRect)frame order:(OrderEntity *)order;
+- (instancetype)initWithFrame:(CGRect)frame order:(Order *)order;
 {
     self = [super initWithFrame:frame];
     if (!self) return nil;
@@ -70,7 +70,7 @@
     }];
     
     _orderNumLabel = [UILabel new];
-    _orderNumLabel.text = _order.serialNo;
+    _orderNumLabel.text = _order.serial_no;
     [self addSubview:_orderNumLabel];
     [_orderNumLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(_orderNumTitle.mas_right);

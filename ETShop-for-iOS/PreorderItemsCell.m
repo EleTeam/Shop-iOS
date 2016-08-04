@@ -11,7 +11,7 @@
 //
 
 #import "PreorderItemsCell.h"
-#import "PreorderItemEntity.h"
+#import "PreorderItem.h"
 #import "PreorderItemView.h"
 
 @interface PreorderItemsCell ()
@@ -46,7 +46,7 @@
     
     //产品列表视图
     int i = 0;
-    for (PreorderItemEntity *preorderItem in preorderItems) {
+    for (PreorderItem *preorderItem in preorderItems) {
         PreorderItemView *vItem = [PreorderItemView new];
         //if (i%2 == 0) vItem.backgroundColor = kColorMainOrange;
         [self addSubview:vItem];

@@ -11,10 +11,10 @@
 //
 
 #import "BaseController.h"
-#import "OrderEntity.h"
+#import "Order.h"
 
 @interface OrderSuccessController : BaseController
 
-- (instancetype)initWithOrder:(OrderEntity *)order;
+- (instancetype)initWithOrder:(Order *)order;
 
 @end

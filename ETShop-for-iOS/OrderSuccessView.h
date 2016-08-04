@@ -11,7 +11,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OrderEntity.h"
+#import "Order.h"
 
 @protocol OrderSuccessViewDelegate <NSObject>
 
@@ -26,6 +26,6 @@
 
 @property (nonatomic, weak) id<OrderSuccessViewDelegate> delegate;
 
-- (instancetype)initWithFrame:(CGRect)frame order:(OrderEntity *)order;
+- (instancetype)initWithFrame:(CGRect)frame order:(Order *)order;
 
 @end
