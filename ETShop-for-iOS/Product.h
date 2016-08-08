@@ -55,15 +55,15 @@
            failure:(void(^)(NSError *error))failure;
 
 //获取打折的商品列表
-+ (void)getFeaturedProducts:(void(^)(BOOL result, NSString *message, NSArray *products))success
++ (void)getFeaturedProducts:(void(^)(BOOL status, NSString *message, NSArray *products))success
                     failure:(void(^)(NSError *error))failure;
 
 //获取精选的商品列表
-+ (void)getTopicProducts:(void(^)(BOOL result, NSString *message, NSArray *products))success
++ (void)getTopicProducts:(void(^)(BOOL status, NSString *message, NSArray *products))success
                     failure:(void(^)(NSError *error))failure;
 
 //销量最高的商品列表
-+ (void)getTopSaleProducts:(void(^)(BOOL result, NSString *message, NSArray *products))success
++ (void)getTopSaleProducts:(void(^)(BOOL status, NSString *message, NSArray *products))success
                     failure:(void(^)(NSError *error))failure;
 
 @end

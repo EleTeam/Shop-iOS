@@ -19,11 +19,11 @@
 #define kUrlProduct                     kUrlBase@"/product/view?id=%@"
 
 //查看打折的商品列表
-#define kUrlGetFeaturedProducts         kUrlBase@"/app/product/list-featured-price"
+#define kUrlGetFeaturedProducts         kUrlBase@"/product/list-featured-price"
 //为你精选的商品列表
-#define kUrlGetTopicProducts            kUrlBase@"/app/product/list-featured-topic"
+#define kUrlGetTopicProducts            kUrlBase@"/product/list-featured-topic"
 //销量最高的商品列表
-#define kUrlGetTopSaleProducts          kUrlBase@"/app/product/list-top-seller"
+#define kUrlGetTopSaleProducts          kUrlBase@"/product/list-top-seller"
 
 //购物车
 #define kUrlGetCart                     kUrlBase@"/cart"
@@ -44,15 +44,15 @@
 #define kUrlPreorderSetPayType          kUrlBase@"/app/preorder/select-pay-type"
 
 //添加收货地址
-#define kUrlAddressAdd                  kUrlBase@"/app/address/add"
+#define kUrlAddressAdd                  kUrlBase@"/address/add"
 //修改收货地址
-#define kUrlAddressEditWithId           kUrlBase@"/app/address/edit/%@"
+#define kUrlAddressEditWithId           kUrlBase@"/address/edit?id=%@"
 //获得地址列表
-#define kUrlAddressGetList              kUrlBase@"/app/address/list"
+#define kUrlAddressGetList              kUrlBase@"/address/list"
 //设置默认地址
-#define kUrlAddressSetDefaultWithId     kUrlBase@"/app/address/set-default-address/%@"
+#define kUrlAddressSetDefaultWithId     kUrlBase@"/address/set-default?id=%@"
 //获得系统默认的区域信息
-#define kUrlAreaPrefixChainedAreas      kUrlBase@"/app/area/get-prefix-area-chained-list"
+#define kUrlAreaPrefixChainedAreas      kUrlBase@"/area/find-prefix-area-chained-areas"
 
 //提交订单
 #define kUrlOrderAddWithPreorderId      kUrlBase@"/app/order/add/%@"

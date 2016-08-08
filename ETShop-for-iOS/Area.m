@@ -25,12 +25,19 @@
                         Area *area = nil;
                         NSMutableArray *chainedAreas = [NSMutableArray new];
                         if (status) {
-                            area = [Area mj_objectWithKeyValues:[data objectForKey:@"area"]];
-                            
-//                            NSDictionary *areaDict = [data objectForKey:@"prefixArea"];
-//                            NSArray *chainedAreaDicts = [data objectForKey:@"areaChainedList"];
-//                            area = [[AreaEntity alloc] initWithDictionary:areaDict];
-//                            for (NSDictionary *itemdicts in chainedAreaDicts) {
+                            area = [Area mj_objectWithKeyValues:[data objectForKey:@"prefixArea"]];
+                            NSArray *chainedAreaDicts = [data objectForKey:@"chainedAreas"];
+                            for (NSDictionary *chainedAreaDict in chainedAreaDicts) {
+                                NSMutableDictionary *areaItems = [NSMutableDictionary new];
+                                Area *theArea = [Area mj_objectWithKeyValues:[chainedAreaDict objectForKey:@"area"]];
+                                NSMutableArray *theChildren = [Area mj_objectArrayWithKeyValuesArray:
+                                                               [chainedAreaDict objectForKey:@"children"]];
+                                [areaItems setObject:theArea forKey:@"area"];
+                                [areaItems setObject:theChildren forKey:@"children"];
+                                [chainedAreas addObject:areaItems];
+                                
+                                
+                                
 //                                NSDictionary *chainedAreaDict = [itemdicts objectForKey:@"area"];
 //                                NSArray *childrenDicts = [itemdicts objectForKey:@"children"];
 //                                Area *chainedArea = [[AreaEntity alloc] initWithDictionary:chainedAreaDict];
@@ -38,14 +45,14 @@
 //                                
 //                                NSMutableArray *children = [NSMutableArray new];
 //                                for (NSDictionary *childDict in childrenDicts) {
-//                                    Area *child = [[AreaEntity alloc] initWithDictionary:childDict];
+//                                    Area *child = [[Area alloc] initWithDictionary:childDict];
 //                                    [children addObject:child];
 //                                }
 //                                [areaItems setObject:chainedArea forKey:@"area"];
 //                                [areaItems setObject:children forKey:@"children"];
 //                                
 //                                [chainedAreas addObject:areaItems];
-//                            }
+                            }
                         }
                         success(status, code, message, area, chainedAreas);
                     }

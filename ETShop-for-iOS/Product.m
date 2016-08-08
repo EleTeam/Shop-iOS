@@ -114,48 +114,30 @@
 }
 
 //获取打折的商品列表
-+ (void)getFeaturedProducts:(void(^)(BOOL result, NSString *message, NSArray *products))success
++ (void)getFeaturedProducts:(void(^)(BOOL status, NSString *message, NSArray *products))success
                     failure:(void(^)(NSError *error))failure
 {
     NSString *url = kUrlGetFeaturedProducts;
     [HttpClient requestJson:url
                      params:nil
-                    success:^(BOOL result, NSNumber *resultCode, NSString *message, NSDictionary *data) {
-                        NSArray *products = nil;
-                        NSMutableArray *productsArr = [NSMutableArray new];
-//                        if (result) {
-//                            NSArray *dictArr = [data objectForKey:@"productList"];
-//                            for (NSDictionary *dict in dictArr) {
-//                                Product *product = [[Product alloc] initWithDictionary:dict];
-//                                [productsArr addObject:product];
-//                            }
-//                            products = [productsArr mutableCopy];
-//                        }
-//                        success(result, message, products);
+                    success:^(BOOL status, NSNumber *code, NSString *message, NSDictionary *data) {
+                        NSArray *products = [Product mj_objectArrayWithKeyValuesArray:[data objectForKey:@"products"]];
+                        success(status, message, products);
                     } failure:^(NSError *error) {
                         failure(error);
                     }];
 }
 
 //获取精选的商品列表
-+ (void)getTopicProducts:(void(^)(BOOL result, NSString *message, NSArray *products))success
++ (void)getTopicProducts:(void(^)(BOOL status, NSString *message, NSArray *products))success
                  failure:(void(^)(NSError *error))failure
 {
     NSString *url = kUrlGetTopicProducts;
     [HttpClient requestJson:url
                      params:nil
-                    success:^(BOOL result, NSNumber *resultCode, NSString *message, NSDictionary *data) {
-                        NSArray *products = nil;
-                        NSMutableArray *productsArr = [NSMutableArray new];
-//                        if (result) {
-//                            NSArray *dictArr = [data objectForKey:@"productList"];
-//                            for (NSDictionary *dict in dictArr) {
-//                                Product *product = [[Product alloc] initWithDictionary:dict];
-//                                [productsArr addObject:product];
-//                            }
-//                            products = [productsArr mutableCopy];
-//                        }
-//                        success(result, message, products);
+                    success:^(BOOL status, NSNumber *resultCode, NSString *message, NSDictionary *data) {
+                        NSArray *products = [Product mj_objectArrayWithKeyValuesArray:[data objectForKey:@"products"]];
+                        success(status, message, products);
                     } failure:^(NSError *error) {
                         failure(error);
                     }];
