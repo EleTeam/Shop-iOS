@@ -85,6 +85,7 @@
 {
     [StorageUtil saveUserId:user.id];
     [StorageUtil saveUserLevel:user.level];
+    [StorageUtil saveUserLevelLabel:user.level_label];
     [StorageUtil saveUserMobile:user.mobile];
     [StorageUtil saveAccessToken:user.access_token];
 }

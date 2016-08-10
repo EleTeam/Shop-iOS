@@ -58,6 +58,14 @@
 {
     return (NSNumber *)[self getObjectByKey:kStorageUserLevel];
 }
++ (void)saveUserLevelLabel:(NSString *)user_level_label
+{
+    [self saveObject:user_level_label forKey:kStorageUserLevel];
+}
++ (NSString *)getUserLevelLabel
+{
+    return (NSString *)[self getObjectByKey:kStorageUserLevel];
+}
 
 //公用的保存和获取本地数据的方法
 + (void)saveObject:(NSObject *)obj forKey:(NSString *)key

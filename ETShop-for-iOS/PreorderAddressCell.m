@@ -167,13 +167,13 @@
     _vAddressLabel.hidden = NO;
 }
 
-- (void)fillContentWithAddress:(AddressEntity *)address
+- (void)fillContentWithAddress:(Address *)address
 {
-    if (address.id.length > 0) {
-        AreaEntity *area = address.area;
+    if (address.id > 0) {
+        Area *area = address.area;
         _vReciverLabel.text = address.fullname;
         _vMobileLabel.text = address.telephone;
-        _vAddressLabel.text = [NSString stringWithFormat:@"%@ %@", area.pathNames4Print, address.detail];
+        _vAddressLabel.text = [NSString stringWithFormat:@"%@ %@", area.path_names_4print, address.detail];
         [self showAddressItems];
     } else {
         [self showNoAddressItems];

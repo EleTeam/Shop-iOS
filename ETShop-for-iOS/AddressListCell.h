@@ -11,11 +11,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AddressEntity.h"
+#import "Address.h"
 
 @protocol AddressListCellDelegate <NSObject>
 
-- (void)doSelectAddress:(AddressEntity *)address;
+- (void)doSelectAddress:(Address *)address;
 
 @end
 
@@ -25,6 +25,6 @@
 
 + (CGFloat)height;
 
-- (void)fillContentWithAddress:(AddressEntity *)address;
+- (void)fillContentWithAddress:(Address *)address;
 
 @end

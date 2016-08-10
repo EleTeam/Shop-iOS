@@ -38,13 +38,6 @@
                         if (status) {
                             address = [Address mj_objectWithKeyValues:[data objectForKey:@"address"]];
                             addresses = [Address mj_objectArrayWithKeyValuesArray:[data objectForKey:@"addresses"]];
-//                            NSDictionary *addressDict = [data objectForKey:@"address"];
-//                            NSArray *addressList = [data objectForKey:@"addressList"];
-//                            address = [[AddressEntity alloc] initWithDictionary:addressDict];
-//                            for (NSDictionary *addrDict in addressList) {
-//                                AddressEntity *addr = [[AddressEntity alloc] initWithDictionary:addrDict];
-//                                [addresses addObject:addr];
-//                            }
                         }
                         success(status, code, message, address, addresses);
                     }
@@ -62,14 +55,6 @@
                         NSMutableArray *addresses = [NSMutableArray new];
                         if (status) {
                             addresses = [Address mj_objectArrayWithKeyValuesArray:[data objectForKey:@"addresses"]];
-//                            NSArray *addressList = [data objectForKey:@"addressList"];
-//                            for (NSDictionary *addressDict in addressList) {
-//                                NSDictionary *areaDict = [addressDict objectForKey:@"area"];
-//                                AreaEntity *area = [[AreaEntity alloc] initWithDictionary:areaDict];
-//                                AddressEntity *address = [[AddressEntity alloc] initWithDictionary:addressDict];
-//                                address.area = area;
-//                                [addresses addObject:address];
-//                            }
                         }
                         success(status, code, message, addresses);
                     }
@@ -89,13 +74,6 @@
                         NSMutableArray *addresses = [NSMutableArray new];
                         if (status) {
                             addresses = [Address mj_objectArrayWithKeyValuesArray:[data objectForKey:@"addresses"]];
-//                            NSDictionary *addressDict = [data objectForKey:@"address"];
-//                            NSArray *addressList = [data objectForKey:@"addressList"];
-//                            address = [[AddressEntity alloc] initWithDictionary:addressDict];
-//                            for (NSDictionary *addrDict in addressList) {
-//                                AddressEntity *addr = [[AddressEntity alloc] initWithDictionary:addrDict];
-//                                [addresses addObject:addr];
-//                            }
                         }
                         success(status, code, message, address, addresses);
                     }

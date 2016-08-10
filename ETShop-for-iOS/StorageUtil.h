@@ -29,7 +29,10 @@
 + (void)saveUserMobile:(NSString *)user_mobile;
 + (NSString *)getUserMobile;
 
-+ (void)saveUserLevel:(NSString *)user_level;
-+ (NSString *)getUserLevel;
++ (void)saveUserLevel:(NSNumber *)user_level;
++ (NSNumber *)getUserLevel;
+
++ (void)saveUserLevelLabel:(NSString *)user_level_label;
++ (NSString *)getUserLevelLabel;
 
 @end

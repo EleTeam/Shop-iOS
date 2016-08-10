@@ -104,7 +104,7 @@
     if (user.id > 0) {
         _vName.text = user.mobile;
         _vName.hidden = NO;
-        _vLevel.text = user.level;
+        _vLevel.text = user.level_label;
         _vLevel.hidden = NO;
         _vNotLogin.hidden = YES;
     } else {
@@ -119,11 +119,13 @@
 {
     NSNumber *user_id = [StorageUtil getUserId];
     NSString *user_mobile = [StorageUtil getUserMobile];
-    NSString *user_level = [StorageUtil getUserLevel];
+    NSNumber *user_level = [StorageUtil getUserLevel];
+    NSString *user_level_label = [StorageUtil getUserLevelLabel];
     User *user = [User new];
     user.id = user_id;
     user.mobile = user_mobile;
     user.level = user_level;
+    user.level_label = user_level_label;
     [self fillContentWithUser:user];
 }
 

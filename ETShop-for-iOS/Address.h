@@ -20,7 +20,7 @@
 @property (nonatomic, copy) NSString *detail;
 @property (nonatomic, copy) NSString *fullname;
 @property (nonatomic, copy) NSString *telephone;
-@property (nonatomic, copy) NSNumber *isDefault;
+@property (nonatomic, copy) NSNumber *is_default;
 
 @property (nonatomic, strong) Area *area;
 

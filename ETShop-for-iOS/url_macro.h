@@ -37,35 +37,35 @@
 #define kUrlSelectCartItemWithItemId    kUrlBase@"/app/cart/setIsSelected/%@"
 
 //从购物车添加预购订单
-#define kUrlPreorderAdd                 kUrlBase@"/preorder/add"
+#define kUrlPreorderAdd                 kUrlBase@"/preorder/create"
 //获取预购订单
 #define kUrlPreorderWithId              kUrlBase@"/preorder/view?id=%@"
 //设置支付方式
-#define kUrlPreorderSetPayType          kUrlBase@"/app/preorder/select-pay-type"
+#define kUrlPreorderSetPayType          kUrlBase@"/preorder/set-pay-type"
 
 //添加收货地址
-#define kUrlAddressAdd                  kUrlBase@"/address/add"
+#define kUrlAddressAdd                  kUrlBase@"/address/create"
 //修改收货地址
-#define kUrlAddressEditWithId           kUrlBase@"/address/edit?id=%@"
+#define kUrlAddressEditWithId           kUrlBase@"/address/update?id=%@"
 //获得地址列表
-#define kUrlAddressGetList              kUrlBase@"/address/list"
+#define kUrlAddressGetList              kUrlBase@"/address"
 //设置默认地址
 #define kUrlAddressSetDefaultWithId     kUrlBase@"/address/set-default?id=%@"
 //获得系统默认的区域信息
 #define kUrlAreaPrefixChainedAreas      kUrlBase@"/area/find-prefix-area-chained-areas"
 
 //提交订单
-#define kUrlOrderAddWithPreorderId      kUrlBase@"/app/order/add/%@"
+#define kUrlOrderAddWithPreorderId      kUrlBase@"/order/create?preorder_id=%@"
 //查看订单
-#define kUrlOrderViewWithId             kUrlBase@"/app/order/%@"
+#define kUrlOrderViewWithId             kUrlBase@"/order/view?id=%@"
 //获取订单列表
-#define kUrlOrderList                   kUrlBase@"/app/order/list"
+#define kUrlOrderList                   kUrlBase@"/order"
 //获取待付款订单列表
-#define kUrlOrderListPendingPay         kUrlBase@"/app/order/list-pending-pay"
+#define kUrlOrderListPendingPay         kUrlBase@"/order/list-pending-pay"
 //获取待收货订单列表
-#define kUrlOrderListDelivering         kUrlBase@"/app/order/list-delivering"
+#define kUrlOrderListDelivering         kUrlBase@"/order/list-delivering"
 //获取交易完成订单列表
-#define kUrlOrderListFinished           kUrlBase@"/app/order/list-finished"
+#define kUrlOrderListFinished           kUrlBase@"/order/list-finished"
 
 //获取用户信息
 #define kUrlUserGet                     kUrlBase@"/user/view"

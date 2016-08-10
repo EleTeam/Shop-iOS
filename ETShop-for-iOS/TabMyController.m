@@ -60,11 +60,13 @@ typedef enum{
     //更新视图的用户信息
     NSNumber *user_id = [StorageUtil getUserId];
     NSString *user_mobile = [StorageUtil getUserMobile];
-    NSString *user_level = [StorageUtil getUserLevel];
+    NSNumber *user_level = [StorageUtil getUserLevel];
+    NSString *user_level_label = [StorageUtil getUserLevelLabel];
     User *user = [User new];
     user.id = user_id;
     user.mobile = user_mobile;
     user.level = user_level;
+    user.level_label = user_level_label;
     _user = user;
     [_vTable reloadData];
     

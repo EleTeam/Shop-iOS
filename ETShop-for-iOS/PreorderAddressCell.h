@@ -11,7 +11,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AddressEntity.h"
+#import "Address.h"
 
 @protocol PreorderAddressCellDelegate <NSObject>
 
@@ -26,6 +26,6 @@
 
 + (CGFloat)height;
 
-- (void)fillContentWithAddress:(AddressEntity *)address;
+- (void)fillContentWithAddress:(Address *)address;
 
 @end

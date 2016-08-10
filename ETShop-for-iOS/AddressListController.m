@@ -94,7 +94,7 @@
             cell = [[AddressListCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
             cell.delegate = self;
         }
-        AddressEntity *address = _addresses[indexPath.row];
+        Address *address = _addresses[indexPath.row];
         [cell fillContentWithAddress:address];
         return cell;
     }
@@ -151,7 +151,7 @@
 //响应通知中心的方法
 - (void)addAddress:(NSNotification *)notification
 {
-    AddressEntity *address = [[notification userInfo] objectForKey:@"address"];
+    Address *address = [[notification userInfo] objectForKey:@"address"];
     [_addresses addObject:address];
     [_vTable reloadData];
 }

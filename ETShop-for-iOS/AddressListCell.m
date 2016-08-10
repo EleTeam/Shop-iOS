@@ -14,7 +14,7 @@
 
 @interface AddressListCell ()
 {
-    AddressEntity *_address;
+    Address *_address;
     
     UIButton *_vGridLeft;
     UIButton *_vGridRight;
@@ -123,16 +123,16 @@
     return self;
 }
 
-- (void)fillContentWithAddress:(AddressEntity *)address
+- (void)fillContentWithAddress:(Address *)address
 {
-    if (address.id.length > 0) {
+    if (address.id > 0) {
         _address = address;
         _vName.text = address.fullname;
         _vMobile.text = address.telephone;
-        AreaEntity *area = address.area;
-        _vAddress.text = [NSString stringWithFormat:@"%@ %@", area.pathNames4Print, address.detail];
+        Area *area = address.area;
+        _vAddress.text = [NSString stringWithFormat:@"%@ %@", area.path_names_4print, address.detail];
         
-        if ([address.isDefault boolValue]) {
+        if ([address.is_default boolValue]) {
             [self setSelected];
         } else {
             [self setUnselected];
