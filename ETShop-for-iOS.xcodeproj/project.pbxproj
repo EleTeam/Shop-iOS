@@ -9,126 +9,251 @@
 /* Begin PBXBuildFile section */
 		26E724E4C167D24126B08ECB /* libPods-ETShop-for-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2499515EF2635C258CC2B2 /* libPods-ETShop-for-iOSTests.a */; };
 		E95C6CF1EC8756EACC9D7401 /* libPods-ETShop-for-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D822D822952E355A22656019 /* libPods-ETShop-for-iOS.a */; };
-		EA1AC1CF1D301105001BF3B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1CE1D301105001BF3B5 /* main.m */; };
-		EA1AC1D21D301105001BF3B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1D11D301105001BF3B5 /* AppDelegate.m */; };
 		EA1AC1E81D301105001BF3B5 /* ETShop_for_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1E71D301105001BF3B5 /* ETShop_for_iOSTests.m */; };
 		EA1AC1F31D301105001BF3B5 /* ETShop_for_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1F21D301105001BF3B5 /* ETShop_for_iOSUITests.m */; };
 		EA1AC2011D30AFF9001BF3B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1AC2001D30AFF9001BF3B5 /* Default-568h@2x.png */; };
-		EA1AC2101D30B31E001BF3B5 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2091D30B31E001BF3B5 /* TAAbstractDotView.m */; };
-		EA1AC2111D30B31E001BF3B5 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20B1D30B31E001BF3B5 /* TAAnimatedDotView.m */; };
-		EA1AC2121D30B31E001BF3B5 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20D1D30B31E001BF3B5 /* TADotView.m */; };
-		EA1AC2131D30B31E001BF3B5 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20F1D30B31E001BF3B5 /* TAPageControl.m */; };
-		EA1AC21A1D30B32F001BF3B5 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2151D30B32F001BF3B5 /* SDCollectionViewCell.m */; };
-		EA1AC21B1D30B32F001BF3B5 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2171D30B32F001BF3B5 /* SDCycleScrollView.m */; };
-		EA1AC21C1D30B32F001BF3B5 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2191D30B32F001BF3B5 /* UIView+SDExtension.m */; };
-		EA1AC2241D30B3AD001BF3B5 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC21F1D30B3AD001BF3B5 /* BaseController.m */; };
-		EA1AC2251D30B3AD001BF3B5 /* BaseLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2211D30B3AD001BF3B5 /* BaseLoadingView.m */; };
-		EA1AC2261D30B3AD001BF3B5 /* NetworkBrokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2231D30B3AD001BF3B5 /* NetworkBrokenView.m */; };
-		EA1AC2291D30B3E6001BF3B5 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2281D30B3E6001BF3B5 /* BaseEntity.m */; };
-		EA1AC22C1D30B3F8001BF3B5 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC22B1D30B3F8001BF3B5 /* BaseModel.m */; };
-		EA1AC2381D30B443001BF3B5 /* TabHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC22F1D30B443001BF3B5 /* TabHomeController.m */; };
-		EA1AC2391D30B443001BF3B5 /* TabTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2311D30B443001BF3B5 /* TabTopicController.m */; };
-		EA1AC23A1D30B443001BF3B5 /* TabCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2331D30B443001BF3B5 /* TabCartController.m */; };
-		EA1AC23B1D30B443001BF3B5 /* TabMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2351D30B443001BF3B5 /* TabMyController.m */; };
-		EA1AC23C1D30B443001BF3B5 /* CartController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2371D30B443001BF3B5 /* CartController.m */; };
-		EA1AC2421D30B459001BF3B5 /* TabMySettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC23F1D30B459001BF3B5 /* TabMySettingController.m */; };
-		EA1AC2431D30B459001BF3B5 /* TabMyAboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2411D30B459001BF3B5 /* TabMyAboutUsController.m */; };
-		EA1AC24B1D30B513001BF3B5 /* TabHomeRightTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24A1D30B513001BF3B5 /* TabHomeRightTableCell.m */; };
-		EA1AC2501D30B51C001BF3B5 /* TabTopicTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24D1D30B51C001BF3B5 /* TabTopicTopCell.m */; };
-		EA1AC2511D30B51C001BF3B5 /* TabTopicProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24F1D30B51C001BF3B5 /* TabTopicProductCell.m */; };
-		EA1AC2581D30B529001BF3B5 /* TabMyHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2531D30B529001BF3B5 /* TabMyHeadCell.m */; };
-		EA1AC2591D30B529001BF3B5 /* TabMyOrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2551D30B529001BF3B5 /* TabMyOrderItemCell.m */; };
-		EA1AC25A1D30B529001BF3B5 /* TabMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2571D30B529001BF3B5 /* TabMyCell.m */; };
-		EA1AC25F1D30B537001BF3B5 /* TabCartItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC25C1D30B537001BF3B5 /* TabCartItemCell.m */; };
-		EA1AC2601D30B537001BF3B5 /* TabCartSubmitBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC25E1D30B537001BF3B5 /* TabCartSubmitBar.m */; };
-		EA1AC2651D31133B001BF3B5 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2641D31133B001BF3B5 /* ProductController.m */; };
-		EA1AC2761D3113F6001BF3B5 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2671D3113F6001BF3B5 /* Product.m */; };
-		EA1AC2771D3113F6001BF3B5 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2691D3113F6001BF3B5 /* ProductCategory.m */; };
-		EA1AC2781D3113F7001BF3B5 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26B1D3113F6001BF3B5 /* Cart.m */; };
-		EA1AC2791D3113F7001BF3B5 /* Preorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26D1D3113F6001BF3B5 /* Preorder.m */; };
-		EA1AC27A1D3113F7001BF3B5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26F1D3113F6001BF3B5 /* User.m */; };
-		EA1AC27B1D3113F7001BF3B5 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2711D3113F6001BF3B5 /* Address.m */; };
-		EA1AC27C1D3113F7001BF3B5 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2731D3113F6001BF3B5 /* Area.m */; };
-		EA1AC27D1D3113F7001BF3B5 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2751D3113F6001BF3B5 /* Order.m */; };
-		EA1AC2A21D3115E9001BF3B5 /* ProductAttributeItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */; };
-		EA1AC2A31D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2841D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m */; };
-		EA1AC2A41D3115E9001BF3B5 /* ProductEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2861D3115E9001BF3B5 /* ProductEntity.m */; };
-		EA1AC2A51D3115E9001BF3B5 /* CartItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2881D3115E9001BF3B5 /* CartItemEntity.m */; };
-		EA1AC2A61D3115E9001BF3B5 /* CartItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28A1D3115E9001BF3B5 /* CartItemAttributeEntity.m */; };
-		EA1AC2A71D3115E9001BF3B5 /* CouponUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28C1D3115E9001BF3B5 /* CouponUserEntity.m */; };
-		EA1AC2A81D3115E9001BF3B5 /* PreorderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28E1D3115E9001BF3B5 /* PreorderEntity.m */; };
-		EA1AC2A91D3115E9001BF3B5 /* PreorderItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2901D3115E9001BF3B5 /* PreorderItemEntity.m */; };
-		EA1AC2AA1D3115E9001BF3B5 /* PreorderItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2921D3115E9001BF3B5 /* PreorderItemAttributeEntity.m */; };
-		EA1AC2AB1D3115E9001BF3B5 /* AreaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2941D3115E9001BF3B5 /* AreaEntity.m */; };
-		EA1AC2AC1D3115E9001BF3B5 /* AddressEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2961D3115E9001BF3B5 /* AddressEntity.m */; };
-		EA1AC2AD1D3115E9001BF3B5 /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2981D3115E9001BF3B5 /* UserEntity.m */; };
-		EA1AC2AE1D3115E9001BF3B5 /* OrderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29A1D3115E9001BF3B5 /* OrderEntity.m */; };
-		EA1AC2AF1D3115E9001BF3B5 /* OrderItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29C1D3115E9001BF3B5 /* OrderItemEntity.m */; };
-		EA1AC2B01D3115E9001BF3B5 /* OrderItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29E1D3115E9001BF3B5 /* OrderItemAttributeEntity.m */; };
-		EA1AC2B11D3115E9001BF3B5 /* OrderStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2A01D3115E9001BF3B5 /* OrderStatus.m */; };
-		EA1AC2CC1D31167A001BF3B5 /* DbUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BB1D31167A001BF3B5 /* DbUtil.m */; };
-		EA1AC2CD1D31167A001BF3B5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BD1D31167A001BF3B5 /* Utils.m */; };
-		EA1AC2CE1D31167A001BF3B5 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BF1D31167A001BF3B5 /* HttpClient.m */; };
-		EA1AC2CF1D31167A001BF3B5 /* FormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C11D31167A001BF3B5 /* FormatUtil.m */; };
-		EA1AC2D01D31167A001BF3B5 /* PriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C31D31167A001BF3B5 /* PriceLabel.m */; };
-		EA1AC2D11D31167A001BF3B5 /* StorageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C51D31167A001BF3B5 /* StorageUtil.m */; };
-		EA1AC2D21D31167A001BF3B5 /* ValidatorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C71D31167A001BF3B5 /* ValidatorUtil.m */; };
-		EA1AC2D31D31167A001BF3B5 /* ButtonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C91D31167A001BF3B5 /* ButtonUtil.m */; };
-		EA1AC2D41D31167A001BF3B5 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2CB1D31167A001BF3B5 /* StringUtil.m */; };
-		EA1AC2D81D33177C001BF3B5 /* UIColor+hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2D71D33177C001BF3B5 /* UIColor+hexColor.m */; };
-		EA1AC2DB1D3317AC001BF3B5 /* ProductForm.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2DA1D3317AC001BF3B5 /* ProductForm.m */; };
-		EA1AC2E31D33180E001BF3B5 /* ProductInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2DE1D33180E001BF3B5 /* ProductInfoCell.m */; };
-		EA1AC2E41D33180E001BF3B5 /* ProductAttrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E01D33180E001BF3B5 /* ProductAttrCell.m */; };
-		EA1AC2E51D33180E001BF3B5 /* ProductBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E21D33180E001BF3B5 /* ProductBottomView.m */; };
-		EA1AC2ED1D331838001BF3B5 /* OrderSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E81D331838001BF3B5 /* OrderSuccessView.m */; };
-		EA1AC2EE1D331838001BF3B5 /* OrderDetailStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2EA1D331838001BF3B5 /* OrderDetailStatusCell.m */; };
-		EA1AC2EF1D331838001BF3B5 /* OrderListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2EC1D331838001BF3B5 /* OrderListCell.m */; };
-		EA1AC2F61D33184E001BF3B5 /* OrderSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F11D33184E001BF3B5 /* OrderSuccessController.m */; };
-		EA1AC2F71D33184E001BF3B5 /* OrderDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F31D33184E001BF3B5 /* OrderDetailController.m */; };
-		EA1AC2F81D33184E001BF3B5 /* OrderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F51D33184E001BF3B5 /* OrderListController.m */; };
-		EA1AC3081D331912001BF3B5 /* UserLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FB1D331912001BF3B5 /* UserLoginController.m */; };
-		EA1AC3091D331912001BF3B5 /* UserRegisterStep1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FD1D331912001BF3B5 /* UserRegisterStep1Controller.m */; };
-		EA1AC30A1D331912001BF3B5 /* UserRegisterStep2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FF1D331912001BF3B5 /* UserRegisterStep2Controller.m */; };
-		EA1AC30B1D331912001BF3B5 /* UserRegisterStep3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3011D331912001BF3B5 /* UserRegisterStep3Controller.m */; };
-		EA1AC30C1D331912001BF3B5 /* UserRegisterSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3031D331912001BF3B5 /* UserRegisterSuccessController.m */; };
-		EA1AC30D1D331912001BF3B5 /* UserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3051D331912001BF3B5 /* UserInfoController.m */; };
-		EA1AC30E1D331912001BF3B5 /* UserForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3071D331912001BF3B5 /* UserForgetPasswordController.m */; };
-		EA1AC31C1D331923001BF3B5 /* UserLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3111D331923001BF3B5 /* UserLoginView.m */; };
-		EA1AC31D1D331923001BF3B5 /* UserRegisterStep1View.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3131D331923001BF3B5 /* UserRegisterStep1View.m */; };
-		EA1AC31E1D331923001BF3B5 /* UserRegisterStep2View.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3151D331923001BF3B5 /* UserRegisterStep2View.m */; };
-		EA1AC31F1D331923001BF3B5 /* UserRegisterStep3View.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3171D331923001BF3B5 /* UserRegisterStep3View.m */; };
-		EA1AC3201D331923001BF3B5 /* UserRegisterSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3191D331923001BF3B5 /* UserRegisterSuccessView.m */; };
-		EA1AC3211D331923001BF3B5 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC31B1D331923001BF3B5 /* UserInfoView.m */; };
-		EA1AC34B1D331962001BF3B5 /* PreorderAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33C1D331962001BF3B5 /* PreorderAddressCell.m */; };
-		EA1AC34C1D331962001BF3B5 /* PreorderPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33E1D331962001BF3B5 /* PreorderPayCell.m */; };
-		EA1AC34D1D331962001BF3B5 /* PreorderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3401D331962001BF3B5 /* PreorderItemView.m */; };
-		EA1AC34E1D331962001BF3B5 /* PreorderItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3421D331962001BF3B5 /* PreorderItemsCell.m */; };
-		EA1AC34F1D331962001BF3B5 /* PreorderNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3441D331962001BF3B5 /* PreorderNoteCell.m */; };
-		EA1AC3501D331962001BF3B5 /* PreorderCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3461D331962001BF3B5 /* PreorderCouponCell.m */; };
-		EA1AC3511D331962001BF3B5 /* PreorderSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3481D331962001BF3B5 /* PreorderSummaryCell.m */; };
-		EA1AC3521D331962001BF3B5 /* PreorderSubmitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC34A1D331962001BF3B5 /* PreorderSubmitView.m */; };
-		EA1AC3561D331980001BF3B5 /* PreorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3551D331980001BF3B5 /* PreorderController.m */; };
-		EA1AC35E1D3319AF001BF3B5 /* AddressListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3591D3319AF001BF3B5 /* AddressListController.m */; };
-		EA1AC35F1D3319AF001BF3B5 /* AddressEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC35B1D3319AF001BF3B5 /* AddressEditController.m */; };
-		EA1AC3601D3319AF001BF3B5 /* AddressAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC35D1D3319AF001BF3B5 /* AddressAddController.m */; };
-		EA1AC36A1D3319C3001BF3B5 /* AddressListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3631D3319C3001BF3B5 /* AddressListCell.m */; };
-		EA1AC36B1D3319C3001BF3B5 /* AddressListEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3651D3319C3001BF3B5 /* AddressListEmptyCell.m */; };
-		EA1AC36C1D3319C3001BF3B5 /* AddressAddBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3671D3319C3001BF3B5 /* AddressAddBtn.m */; };
-		EA1AC36D1D3319C3001BF3B5 /* AddressAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3691D3319C3001BF3B5 /* AddressAddView.m */; };
-		EA1AC3711D3319F4001BF3B5 /* LocationAnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3701D3319F4001BF3B5 /* LocationAnnotationModel.m */; };
-		EA1AC3751D331A09001BF3B5 /* LocationShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3741D331A09001BF3B5 /* LocationShopController.m */; };
-		EA3F6EE01D47A18B00CADA05 /* CartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EDF1D47A18B00CADA05 /* CartItem.m */; };
-		EA3F6EE31D47A1A300CADA05 /* CartItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE21D47A1A300CADA05 /* CartItemAttr.m */; };
-		EA3F6EE61D47A1ED00CADA05 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE51D47A1ED00CADA05 /* Coupon.m */; };
-		EA3F6EE91D47A20200CADA05 /* CouponUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE81D47A20200CADA05 /* CouponUser.m */; };
-		EAC20C921D5212BA004FA964 /* PreorderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C911D5212BA004FA964 /* PreorderItem.m */; };
-		EAC20C951D5212E1004FA964 /* PreorderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */; };
-		EAC20C9B1D522CE5004FA964 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9A1D522CE5004FA964 /* OrderItem.m */; };
-		EAC20C9E1D522CF7004FA964 /* OrderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9D1D522CF7004FA964 /* OrderItemAttr.m */; };
+		EAC20CA01D5B8B78004FA964 /* DbUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BA1D31167A001BF3B5 /* DbUtil.h */; };
+		EAC20CA11D5B8B78004FA964 /* DbUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BB1D31167A001BF3B5 /* DbUtil.m */; };
+		EAC20CA21D5B8B78004FA964 /* Utils.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BC1D31167A001BF3B5 /* Utils.h */; };
+		EAC20CA31D5B8B78004FA964 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BD1D31167A001BF3B5 /* Utils.m */; };
+		EAC20CA41D5B8B78004FA964 /* HttpClient.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BE1D31167A001BF3B5 /* HttpClient.h */; };
+		EAC20CA51D5B8B78004FA964 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2BF1D31167A001BF3B5 /* HttpClient.m */; };
+		EAC20CA61D5B8B78004FA964 /* FormatUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C01D31167A001BF3B5 /* FormatUtil.h */; };
+		EAC20CA71D5B8B78004FA964 /* FormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C11D31167A001BF3B5 /* FormatUtil.m */; };
+		EAC20CA81D5B8B78004FA964 /* PriceLabel.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C21D31167A001BF3B5 /* PriceLabel.h */; };
+		EAC20CA91D5B8B78004FA964 /* PriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C31D31167A001BF3B5 /* PriceLabel.m */; };
+		EAC20CAA1D5B8B78004FA964 /* StorageUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C41D31167A001BF3B5 /* StorageUtil.h */; };
+		EAC20CAB1D5B8B78004FA964 /* StorageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C51D31167A001BF3B5 /* StorageUtil.m */; };
+		EAC20CAC1D5B8B78004FA964 /* ValidatorUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C61D31167A001BF3B5 /* ValidatorUtil.h */; };
+		EAC20CAD1D5B8B78004FA964 /* ValidatorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C71D31167A001BF3B5 /* ValidatorUtil.m */; };
+		EAC20CAE1D5B8B78004FA964 /* ButtonUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C81D31167A001BF3B5 /* ButtonUtil.h */; };
+		EAC20CAF1D5B8B78004FA964 /* ButtonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2C91D31167A001BF3B5 /* ButtonUtil.m */; };
+		EAC20CB01D5B8B78004FA964 /* StringUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2CA1D31167A001BF3B5 /* StringUtil.h */; };
+		EAC20CB11D5B8B78004FA964 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2CB1D31167A001BF3B5 /* StringUtil.m */; };
+		EAC20CB21D5B8B78004FA964 /* common_macro.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2B31D311638001BF3B5 /* common_macro.h */; };
+		EAC20CB31D5B8B78004FA964 /* db_macro.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2B41D311638001BF3B5 /* db_macro.h */; };
+		EAC20CB41D5B8B78004FA964 /* url_macro.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2B51D311638001BF3B5 /* url_macro.h */; };
+		EAC20CB51D5B8B78004FA964 /* storage_macro.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2B61D311638001BF3B5 /* storage_macro.h */; };
+		EAC20CB61D5B8B78004FA964 /* remote_macro.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2B71D311638001BF3B5 /* remote_macro.h */; };
+		EAC20CB71D5B8B78004FA964 /* notify_macro.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2B81D311638001BF3B5 /* notify_macro.h */; };
+		EAC20CB81D5B8B78004FA964 /* UIColor+hexColor.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2D61D33177C001BF3B5 /* UIColor+hexColor.h */; };
+		EAC20CB91D5B8B78004FA964 /* UIColor+hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2D71D33177C001BF3B5 /* UIColor+hexColor.m */; };
+		EAC20CBA1D5B8B78004FA964 /* BaseController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC21E1D30B3AD001BF3B5 /* BaseController.h */; };
+		EAC20CBB1D5B8B78004FA964 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC21F1D30B3AD001BF3B5 /* BaseController.m */; };
+		EAC20CBC1D5B8B78004FA964 /* BaseModel.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC22A1D30B3F8001BF3B5 /* BaseModel.h */; };
+		EAC20CBD1D5B8B78004FA964 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC22B1D30B3F8001BF3B5 /* BaseModel.m */; };
+		EAC20CBE1D5B8B78004FA964 /* BaseEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2271D30B3E6001BF3B5 /* BaseEntity.h */; };
+		EAC20CBF1D5B8B78004FA964 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2281D30B3E6001BF3B5 /* BaseEntity.m */; };
+		EAC20CC01D5B8B78004FA964 /* BaseLoadingView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2201D30B3AD001BF3B5 /* BaseLoadingView.h */; };
+		EAC20CC11D5B8B78004FA964 /* BaseLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2211D30B3AD001BF3B5 /* BaseLoadingView.m */; };
+		EAC20CC21D5B8B78004FA964 /* NetworkBrokenView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2221D30B3AD001BF3B5 /* NetworkBrokenView.h */; };
+		EAC20CC31D5B8B78004FA964 /* NetworkBrokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2231D30B3AD001BF3B5 /* NetworkBrokenView.m */; };
+		EAC20CC41D5B8B78004FA964 /* ProductForm.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2D91D3317AC001BF3B5 /* ProductForm.h */; };
+		EAC20CC51D5B8B78004FA964 /* ProductForm.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2DA1D3317AC001BF3B5 /* ProductForm.m */; };
+		EAC20CC61D5B8B78004FA964 /* SDCollectionViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2141D30B32F001BF3B5 /* SDCollectionViewCell.h */; };
+		EAC20CC71D5B8B78004FA964 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2151D30B32F001BF3B5 /* SDCollectionViewCell.m */; };
+		EAC20CC81D5B8B78004FA964 /* SDCycleScrollView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2161D30B32F001BF3B5 /* SDCycleScrollView.h */; };
+		EAC20CC91D5B8B78004FA964 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2171D30B32F001BF3B5 /* SDCycleScrollView.m */; };
+		EAC20CCA1D5B8B78004FA964 /* UIView+SDExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2181D30B32F001BF3B5 /* UIView+SDExtension.h */; };
+		EAC20CCB1D5B8B78004FA964 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2191D30B32F001BF3B5 /* UIView+SDExtension.m */; };
+		EAC20CCC1D5B8B78004FA964 /* TAAbstractDotView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2081D30B31E001BF3B5 /* TAAbstractDotView.h */; };
+		EAC20CCD1D5B8B78004FA964 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2091D30B31E001BF3B5 /* TAAbstractDotView.m */; };
+		EAC20CCE1D5B8B78004FA964 /* TAAnimatedDotView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20A1D30B31E001BF3B5 /* TAAnimatedDotView.h */; };
+		EAC20CCF1D5B8B78004FA964 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20B1D30B31E001BF3B5 /* TAAnimatedDotView.m */; };
+		EAC20CD01D5B8B78004FA964 /* TADotView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20C1D30B31E001BF3B5 /* TADotView.h */; };
+		EAC20CD11D5B8B78004FA964 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20D1D30B31E001BF3B5 /* TADotView.m */; };
+		EAC20CD21D5B8B78004FA964 /* TAPageControl.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20E1D30B31E001BF3B5 /* TAPageControl.h */; };
+		EAC20CD31D5B8B78004FA964 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC20F1D30B31E001BF3B5 /* TAPageControl.m */; };
+		EAC20CD41D5B8B78004FA964 /* AddressListCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3621D3319C3001BF3B5 /* AddressListCell.h */; };
+		EAC20CD51D5B8B78004FA964 /* AddressListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3631D3319C3001BF3B5 /* AddressListCell.m */; };
+		EAC20CD61D5B8B78004FA964 /* AddressListEmptyCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3641D3319C3001BF3B5 /* AddressListEmptyCell.h */; };
+		EAC20CD71D5B8B78004FA964 /* AddressListEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3651D3319C3001BF3B5 /* AddressListEmptyCell.m */; };
+		EAC20CD81D5B8B78004FA964 /* AddressAddBtn.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3661D3319C3001BF3B5 /* AddressAddBtn.h */; };
+		EAC20CD91D5B8B78004FA964 /* AddressAddBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3671D3319C3001BF3B5 /* AddressAddBtn.m */; };
+		EAC20CDA1D5B8B78004FA964 /* AddressAddView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3681D3319C3001BF3B5 /* AddressAddView.h */; };
+		EAC20CDB1D5B8B78004FA964 /* AddressAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3691D3319C3001BF3B5 /* AddressAddView.m */; };
+		EAC20CDC1D5B8B78004FA964 /* PreorderAddressCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33B1D331962001BF3B5 /* PreorderAddressCell.h */; };
+		EAC20CDD1D5B8B78004FA964 /* PreorderAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33C1D331962001BF3B5 /* PreorderAddressCell.m */; };
+		EAC20CDE1D5B8B78004FA964 /* PreorderPayCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33D1D331962001BF3B5 /* PreorderPayCell.h */; };
+		EAC20CDF1D5B8B78004FA964 /* PreorderPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33E1D331962001BF3B5 /* PreorderPayCell.m */; };
+		EAC20CE01D5B8B78004FA964 /* PreorderItemView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC33F1D331962001BF3B5 /* PreorderItemView.h */; };
+		EAC20CE11D5B8B78004FA964 /* PreorderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3401D331962001BF3B5 /* PreorderItemView.m */; };
+		EAC20CE21D5B8B78004FA964 /* PreorderItemsCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3411D331962001BF3B5 /* PreorderItemsCell.h */; };
+		EAC20CE31D5B8B78004FA964 /* PreorderItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3421D331962001BF3B5 /* PreorderItemsCell.m */; };
+		EAC20CE41D5B8B78004FA964 /* PreorderNoteCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3431D331962001BF3B5 /* PreorderNoteCell.h */; };
+		EAC20CE51D5B8B78004FA964 /* PreorderNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3441D331962001BF3B5 /* PreorderNoteCell.m */; };
+		EAC20CE61D5B8B78004FA964 /* PreorderCouponCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3451D331962001BF3B5 /* PreorderCouponCell.h */; };
+		EAC20CE71D5B8B78004FA964 /* PreorderCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3461D331962001BF3B5 /* PreorderCouponCell.m */; };
+		EAC20CE81D5B8B78004FA964 /* PreorderSummaryCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3471D331962001BF3B5 /* PreorderSummaryCell.h */; };
+		EAC20CE91D5B8B78004FA964 /* PreorderSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3481D331962001BF3B5 /* PreorderSummaryCell.m */; };
+		EAC20CEA1D5B8B78004FA964 /* PreorderSubmitView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3491D331962001BF3B5 /* PreorderSubmitView.h */; };
+		EAC20CEB1D5B8B78004FA964 /* PreorderSubmitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC34A1D331962001BF3B5 /* PreorderSubmitView.m */; };
+		EAC20CEC1D5B8B78004FA964 /* UserLoginView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3101D331923001BF3B5 /* UserLoginView.h */; };
+		EAC20CED1D5B8B78004FA964 /* UserLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3111D331923001BF3B5 /* UserLoginView.m */; };
+		EAC20CEE1D5B8B78004FA964 /* UserRegisterStep1View.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3121D331923001BF3B5 /* UserRegisterStep1View.h */; };
+		EAC20CEF1D5B8B78004FA964 /* UserRegisterStep1View.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3131D331923001BF3B5 /* UserRegisterStep1View.m */; };
+		EAC20CF01D5B8B78004FA964 /* UserRegisterStep2View.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3141D331923001BF3B5 /* UserRegisterStep2View.h */; };
+		EAC20CF11D5B8B78004FA964 /* UserRegisterStep2View.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3151D331923001BF3B5 /* UserRegisterStep2View.m */; };
+		EAC20CF21D5B8B78004FA964 /* UserRegisterStep3View.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3161D331923001BF3B5 /* UserRegisterStep3View.h */; };
+		EAC20CF31D5B8B78004FA964 /* UserRegisterStep3View.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3171D331923001BF3B5 /* UserRegisterStep3View.m */; };
+		EAC20CF41D5B8B78004FA964 /* UserRegisterSuccessView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3181D331923001BF3B5 /* UserRegisterSuccessView.h */; };
+		EAC20CF51D5B8B78004FA964 /* UserRegisterSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3191D331923001BF3B5 /* UserRegisterSuccessView.m */; };
+		EAC20CF61D5B8B78004FA964 /* UserInfoView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC31A1D331923001BF3B5 /* UserInfoView.h */; };
+		EAC20CF71D5B8B78004FA964 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC31B1D331923001BF3B5 /* UserInfoView.m */; };
+		EAC20CF81D5B8B78004FA964 /* OrderSuccessView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E71D331838001BF3B5 /* OrderSuccessView.h */; };
+		EAC20CF91D5B8B78004FA964 /* OrderSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E81D331838001BF3B5 /* OrderSuccessView.m */; };
+		EAC20CFA1D5B8B78004FA964 /* OrderDetailStatusCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E91D331838001BF3B5 /* OrderDetailStatusCell.h */; };
+		EAC20CFB1D5B8B78004FA964 /* OrderDetailStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2EA1D331838001BF3B5 /* OrderDetailStatusCell.m */; };
+		EAC20CFC1D5B8B78004FA964 /* OrderListCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2EB1D331838001BF3B5 /* OrderListCell.h */; };
+		EAC20CFD1D5B8B78004FA964 /* OrderListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2EC1D331838001BF3B5 /* OrderListCell.m */; };
+		EAC20CFE1D5B8B78004FA964 /* ProductInfoCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2DD1D33180E001BF3B5 /* ProductInfoCell.h */; };
+		EAC20CFF1D5B8B78004FA964 /* ProductInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2DE1D33180E001BF3B5 /* ProductInfoCell.m */; };
+		EAC20D001D5B8B78004FA964 /* ProductAttrCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2DF1D33180E001BF3B5 /* ProductAttrCell.h */; };
+		EAC20D011D5B8B78004FA964 /* ProductAttrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E01D33180E001BF3B5 /* ProductAttrCell.m */; };
+		EAC20D021D5B8B78004FA964 /* ProductBottomView.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E11D33180E001BF3B5 /* ProductBottomView.h */; };
+		EAC20D031D5B8B78004FA964 /* ProductBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2E21D33180E001BF3B5 /* ProductBottomView.m */; };
+		EAC20D041D5B8B78004FA964 /* TabCartItemCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC25B1D30B537001BF3B5 /* TabCartItemCell.h */; };
+		EAC20D051D5B8B78004FA964 /* TabCartItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC25C1D30B537001BF3B5 /* TabCartItemCell.m */; };
+		EAC20D061D5B8B78004FA964 /* TabCartSubmitBar.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC25D1D30B537001BF3B5 /* TabCartSubmitBar.h */; };
+		EAC20D071D5B8B78004FA964 /* TabCartSubmitBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC25E1D30B537001BF3B5 /* TabCartSubmitBar.m */; };
+		EAC20D081D5B8B78004FA964 /* TabMyHeadCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2521D30B529001BF3B5 /* TabMyHeadCell.h */; };
+		EAC20D091D5B8B78004FA964 /* TabMyHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2531D30B529001BF3B5 /* TabMyHeadCell.m */; };
+		EAC20D0A1D5B8B78004FA964 /* TabMyOrderItemCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2541D30B529001BF3B5 /* TabMyOrderItemCell.h */; };
+		EAC20D0B1D5B8B78004FA964 /* TabMyOrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2551D30B529001BF3B5 /* TabMyOrderItemCell.m */; };
+		EAC20D0C1D5B8B78004FA964 /* TabMyCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2561D30B529001BF3B5 /* TabMyCell.h */; };
+		EAC20D0D1D5B8B78004FA964 /* TabMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2571D30B529001BF3B5 /* TabMyCell.m */; };
+		EAC20D0E1D5B8B78004FA964 /* TabTopicTopCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24C1D30B51C001BF3B5 /* TabTopicTopCell.h */; };
+		EAC20D0F1D5B8B78004FA964 /* TabTopicTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24D1D30B51C001BF3B5 /* TabTopicTopCell.m */; };
+		EAC20D101D5B8B78004FA964 /* TabTopicProductCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24E1D30B51C001BF3B5 /* TabTopicProductCell.h */; };
+		EAC20D111D5B8B78004FA964 /* TabTopicProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24F1D30B51C001BF3B5 /* TabTopicProductCell.m */; };
+		EAC20D121D5B8B78004FA964 /* TabHomeRightTableCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2491D30B513001BF3B5 /* TabHomeRightTableCell.h */; };
+		EAC20D131D5B8B78004FA964 /* TabHomeRightTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24A1D30B513001BF3B5 /* TabHomeRightTableCell.m */; };
+		EAC20D141D5B8B78004FA964 /* ProductAttributeItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2811D3115E9001BF3B5 /* ProductAttributeItemEntity.h */; };
+		EAC20D151D5B8B78004FA964 /* ProductAttributeItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */; };
+		EAC20D161D5B8B78004FA964 /* ProductAttributeItemValueEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2831D3115E9001BF3B5 /* ProductAttributeItemValueEntity.h */; };
+		EAC20D171D5B8B78004FA964 /* ProductAttributeItemValueEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2841D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m */; };
+		EAC20D181D5B8B78004FA964 /* ProductEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2851D3115E9001BF3B5 /* ProductEntity.h */; };
+		EAC20D191D5B8B78004FA964 /* ProductEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2861D3115E9001BF3B5 /* ProductEntity.m */; };
+		EAC20D1A1D5B8B78004FA964 /* CartItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2871D3115E9001BF3B5 /* CartItemEntity.h */; };
+		EAC20D1B1D5B8B78004FA964 /* CartItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2881D3115E9001BF3B5 /* CartItemEntity.m */; };
+		EAC20D1C1D5B8B78004FA964 /* CartItemAttributeEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2891D3115E9001BF3B5 /* CartItemAttributeEntity.h */; };
+		EAC20D1D1D5B8B78004FA964 /* CartItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28A1D3115E9001BF3B5 /* CartItemAttributeEntity.m */; };
+		EAC20D1E1D5B8B78004FA964 /* CouponUserEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28B1D3115E9001BF3B5 /* CouponUserEntity.h */; };
+		EAC20D1F1D5B8B78004FA964 /* CouponUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28C1D3115E9001BF3B5 /* CouponUserEntity.m */; };
+		EAC20D201D5B8B78004FA964 /* PreorderEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28D1D3115E9001BF3B5 /* PreorderEntity.h */; };
+		EAC20D211D5B8B78004FA964 /* PreorderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28E1D3115E9001BF3B5 /* PreorderEntity.m */; };
+		EAC20D221D5B8B78004FA964 /* PreorderItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28F1D3115E9001BF3B5 /* PreorderItemEntity.h */; };
+		EAC20D231D5B8B78004FA964 /* PreorderItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2901D3115E9001BF3B5 /* PreorderItemEntity.m */; };
+		EAC20D241D5B8B78004FA964 /* PreorderItemAttributeEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2911D3115E9001BF3B5 /* PreorderItemAttributeEntity.h */; };
+		EAC20D251D5B8B78004FA964 /* PreorderItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2921D3115E9001BF3B5 /* PreorderItemAttributeEntity.m */; };
+		EAC20D261D5B8B78004FA964 /* AreaEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2931D3115E9001BF3B5 /* AreaEntity.h */; };
+		EAC20D271D5B8B78004FA964 /* AreaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2941D3115E9001BF3B5 /* AreaEntity.m */; };
+		EAC20D281D5B8B78004FA964 /* AddressEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2951D3115E9001BF3B5 /* AddressEntity.h */; };
+		EAC20D291D5B8B78004FA964 /* AddressEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2961D3115E9001BF3B5 /* AddressEntity.m */; };
+		EAC20D2A1D5B8B78004FA964 /* UserEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2971D3115E9001BF3B5 /* UserEntity.h */; };
+		EAC20D2B1D5B8B78004FA964 /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2981D3115E9001BF3B5 /* UserEntity.m */; };
+		EAC20D2C1D5B8B78004FA964 /* OrderEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2991D3115E9001BF3B5 /* OrderEntity.h */; };
+		EAC20D2D1D5B8B78004FA964 /* OrderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29A1D3115E9001BF3B5 /* OrderEntity.m */; };
+		EAC20D2E1D5B8B78004FA964 /* OrderItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29B1D3115E9001BF3B5 /* OrderItemEntity.h */; };
+		EAC20D2F1D5B8B78004FA964 /* OrderItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29C1D3115E9001BF3B5 /* OrderItemEntity.m */; };
+		EAC20D301D5B8B78004FA964 /* OrderItemAttributeEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29D1D3115E9001BF3B5 /* OrderItemAttributeEntity.h */; };
+		EAC20D311D5B8B78004FA964 /* OrderItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29E1D3115E9001BF3B5 /* OrderItemAttributeEntity.m */; };
+		EAC20D321D5B8B78004FA964 /* Address.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2701D3113F6001BF3B5 /* Address.h */; };
+		EAC20D331D5B8B78004FA964 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2711D3113F6001BF3B5 /* Address.m */; };
+		EAC20D341D5B8B78004FA964 /* Area.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2721D3113F6001BF3B5 /* Area.h */; };
+		EAC20D351D5B8B78004FA964 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2731D3113F6001BF3B5 /* Area.m */; };
+		EAC20D361D5B8B78004FA964 /* LocationAnnotationModel.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC36F1D3319F4001BF3B5 /* LocationAnnotationModel.h */; };
+		EAC20D371D5B8B78004FA964 /* LocationAnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3701D3319F4001BF3B5 /* LocationAnnotationModel.m */; };
+		EAC20D381D5B8B78004FA964 /* Product.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2661D3113F6001BF3B5 /* Product.h */; };
+		EAC20D391D5B8B78004FA964 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2671D3113F6001BF3B5 /* Product.m */; };
+		EAC20D3A1D5B8B79004FA964 /* ProductAttr.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FB1D3B704B00020D9A /* ProductAttr.h */; };
+		EAC20D3B1D5B8B79004FA964 /* ProductAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FC1D3B704B00020D9A /* ProductAttr.m */; };
+		EAC20D3C1D5B8B79004FA964 /* ProductAttrItem.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FE1D3B725A00020D9A /* ProductAttrItem.h */; };
+		EAC20D3D1D5B8B79004FA964 /* ProductAttrItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FF1D3B725A00020D9A /* ProductAttrItem.m */; };
+		EAC20D3E1D5B8B79004FA964 /* ProductAttrItemValue.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC599011D3B729800020D9A /* ProductAttrItemValue.h */; };
+		EAC20D3F1D5B8B79004FA964 /* ProductAttrItemValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC599021D3B729800020D9A /* ProductAttrItemValue.m */; };
+		EAC20D401D5B8B79004FA964 /* ProductCategory.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2681D3113F6001BF3B5 /* ProductCategory.h */; };
+		EAC20D411D5B8B79004FA964 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2691D3113F6001BF3B5 /* ProductCategory.m */; };
+		EAC20D421D5B8B79004FA964 /* Cart.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26A1D3113F6001BF3B5 /* Cart.h */; };
+		EAC20D431D5B8B79004FA964 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26B1D3113F6001BF3B5 /* Cart.m */; };
+		EAC20D441D5B8B79004FA964 /* CartItem.h in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EDE1D47A18B00CADA05 /* CartItem.h */; };
+		EAC20D451D5B8B79004FA964 /* CartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EDF1D47A18B00CADA05 /* CartItem.m */; };
+		EAC20D461D5B8B79004FA964 /* CartItemAttr.h in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE11D47A1A300CADA05 /* CartItemAttr.h */; };
+		EAC20D471D5B8B79004FA964 /* CartItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE21D47A1A300CADA05 /* CartItemAttr.m */; };
+		EAC20D481D5B8B79004FA964 /* Coupon.h in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE41D47A1ED00CADA05 /* Coupon.h */; };
+		EAC20D491D5B8B79004FA964 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE51D47A1ED00CADA05 /* Coupon.m */; };
+		EAC20D4A1D5B8B79004FA964 /* CouponUser.h in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE71D47A20200CADA05 /* CouponUser.h */; };
+		EAC20D4B1D5B8B79004FA964 /* CouponUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F6EE81D47A20200CADA05 /* CouponUser.m */; };
+		EAC20D4C1D5B8B79004FA964 /* Preorder.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26C1D3113F6001BF3B5 /* Preorder.h */; };
+		EAC20D4D1D5B8B79004FA964 /* Preorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26D1D3113F6001BF3B5 /* Preorder.m */; };
+		EAC20D4E1D5B8B79004FA964 /* PreorderItem.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C901D5212BA004FA964 /* PreorderItem.h */; };
+		EAC20D4F1D5B8B79004FA964 /* PreorderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C911D5212BA004FA964 /* PreorderItem.m */; };
+		EAC20D501D5B8B79004FA964 /* PreorderItemAttr.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C931D5212E1004FA964 /* PreorderItemAttr.h */; };
+		EAC20D511D5B8B79004FA964 /* PreorderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C941D5212E1004FA964 /* PreorderItemAttr.m */; };
+		EAC20D521D5B8B79004FA964 /* Order.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2741D3113F6001BF3B5 /* Order.h */; };
+		EAC20D531D5B8B79004FA964 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2751D3113F6001BF3B5 /* Order.m */; };
+		EAC20D541D5B8B79004FA964 /* OrderItem.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C991D522CE5004FA964 /* OrderItem.h */; };
+		EAC20D551D5B8B79004FA964 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9A1D522CE5004FA964 /* OrderItem.m */; };
+		EAC20D561D5B8B79004FA964 /* OrderItemAttr.h in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9C1D522CF7004FA964 /* OrderItemAttr.h */; };
+		EAC20D571D5B8B79004FA964 /* OrderItemAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC20C9D1D522CF7004FA964 /* OrderItemAttr.m */; };
+		EAC20D581D5B8B79004FA964 /* OrderStatus.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29F1D3115E9001BF3B5 /* OrderStatus.h */; };
+		EAC20D591D5B8B79004FA964 /* OrderStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2A01D3115E9001BF3B5 /* OrderStatus.m */; };
+		EAC20D5A1D5B8B79004FA964 /* User.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26E1D3113F6001BF3B5 /* User.h */; };
+		EAC20D5B1D5B8B79004FA964 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC26F1D3113F6001BF3B5 /* User.m */; };
+		EAC20D5C1D5B8B79004FA964 /* TabMySettingController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC23E1D30B459001BF3B5 /* TabMySettingController.h */; };
+		EAC20D5D1D5B8B79004FA964 /* TabMySettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC23F1D30B459001BF3B5 /* TabMySettingController.m */; };
+		EAC20D5E1D5B8B79004FA964 /* TabMyAboutUsController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2401D30B459001BF3B5 /* TabMyAboutUsController.h */; };
+		EAC20D5F1D5B8B79004FA964 /* TabMyAboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2411D30B459001BF3B5 /* TabMyAboutUsController.m */; };
+		EAC20D601D5B8B79004FA964 /* TabHomeController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC22E1D30B443001BF3B5 /* TabHomeController.h */; };
+		EAC20D611D5B8B79004FA964 /* TabHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC22F1D30B443001BF3B5 /* TabHomeController.m */; };
+		EAC20D621D5B8B79004FA964 /* TabTopicController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2301D30B443001BF3B5 /* TabTopicController.h */; };
+		EAC20D631D5B8B79004FA964 /* TabTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2311D30B443001BF3B5 /* TabTopicController.m */; };
+		EAC20D641D5B8B79004FA964 /* TabCartController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2321D30B443001BF3B5 /* TabCartController.h */; };
+		EAC20D651D5B8B79004FA964 /* TabCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2331D30B443001BF3B5 /* TabCartController.m */; };
+		EAC20D661D5B8B79004FA964 /* TabMyController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2341D30B443001BF3B5 /* TabMyController.h */; };
+		EAC20D671D5B8B79004FA964 /* TabMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2351D30B443001BF3B5 /* TabMyController.m */; };
+		EAC20D681D5B8B79004FA964 /* CartController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2361D30B443001BF3B5 /* CartController.h */; };
+		EAC20D691D5B8B79004FA964 /* CartController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2371D30B443001BF3B5 /* CartController.m */; };
+		EAC20D6A1D5B8B79004FA964 /* LocationShopController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3731D331A09001BF3B5 /* LocationShopController.h */; };
+		EAC20D6B1D5B8B79004FA964 /* LocationShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3741D331A09001BF3B5 /* LocationShopController.m */; };
+		EAC20D6C1D5B8B79004FA964 /* AddressListController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3581D3319AF001BF3B5 /* AddressListController.h */; };
+		EAC20D6D1D5B8B79004FA964 /* AddressListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3591D3319AF001BF3B5 /* AddressListController.m */; };
+		EAC20D6E1D5B8B79004FA964 /* AddressEditController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC35A1D3319AF001BF3B5 /* AddressEditController.h */; };
+		EAC20D6F1D5B8B79004FA964 /* AddressEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC35B1D3319AF001BF3B5 /* AddressEditController.m */; };
+		EAC20D701D5B8B79004FA964 /* AddressAddController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC35C1D3319AF001BF3B5 /* AddressAddController.h */; };
+		EAC20D711D5B8B79004FA964 /* AddressAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC35D1D3319AF001BF3B5 /* AddressAddController.m */; };
+		EAC20D721D5B8B79004FA964 /* PreorderController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3541D331980001BF3B5 /* PreorderController.h */; };
+		EAC20D731D5B8B79004FA964 /* PreorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3551D331980001BF3B5 /* PreorderController.m */; };
+		EAC20D741D5B8B79004FA964 /* UserLoginController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FA1D331912001BF3B5 /* UserLoginController.h */; };
+		EAC20D751D5B8B79004FA964 /* UserLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FB1D331912001BF3B5 /* UserLoginController.m */; };
+		EAC20D761D5B8B79004FA964 /* UserRegisterStep1Controller.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FC1D331912001BF3B5 /* UserRegisterStep1Controller.h */; };
+		EAC20D771D5B8B79004FA964 /* UserRegisterStep1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FD1D331912001BF3B5 /* UserRegisterStep1Controller.m */; };
+		EAC20D781D5B8B79004FA964 /* UserRegisterStep2Controller.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FE1D331912001BF3B5 /* UserRegisterStep2Controller.h */; };
+		EAC20D791D5B8B79004FA964 /* UserRegisterStep2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2FF1D331912001BF3B5 /* UserRegisterStep2Controller.m */; };
+		EAC20D7A1D5B8B79004FA964 /* UserRegisterStep3Controller.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3001D331912001BF3B5 /* UserRegisterStep3Controller.h */; };
+		EAC20D7B1D5B8B79004FA964 /* UserRegisterStep3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3011D331912001BF3B5 /* UserRegisterStep3Controller.m */; };
+		EAC20D7C1D5B8B79004FA964 /* UserRegisterSuccessController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3021D331912001BF3B5 /* UserRegisterSuccessController.h */; };
+		EAC20D7D1D5B8B79004FA964 /* UserRegisterSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3031D331912001BF3B5 /* UserRegisterSuccessController.m */; };
+		EAC20D7E1D5B8B79004FA964 /* UserInfoController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3041D331912001BF3B5 /* UserInfoController.h */; };
+		EAC20D7F1D5B8B79004FA964 /* UserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3051D331912001BF3B5 /* UserInfoController.m */; };
+		EAC20D801D5B8B79004FA964 /* UserForgetPasswordController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3061D331912001BF3B5 /* UserForgetPasswordController.h */; };
+		EAC20D811D5B8B79004FA964 /* UserForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC3071D331912001BF3B5 /* UserForgetPasswordController.m */; };
+		EAC20D821D5B8B79004FA964 /* ProductController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2631D31133B001BF3B5 /* ProductController.h */; };
+		EAC20D831D5B8B79004FA964 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2641D31133B001BF3B5 /* ProductController.m */; };
+		EAC20D841D5B8B79004FA964 /* OrderSuccessController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F01D33184E001BF3B5 /* OrderSuccessController.h */; };
+		EAC20D851D5B8B79004FA964 /* OrderSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F11D33184E001BF3B5 /* OrderSuccessController.m */; };
+		EAC20D861D5B8B79004FA964 /* OrderDetailController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F21D33184E001BF3B5 /* OrderDetailController.h */; };
+		EAC20D871D5B8B79004FA964 /* OrderDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F31D33184E001BF3B5 /* OrderDetailController.m */; };
+		EAC20D881D5B8B79004FA964 /* OrderListController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F41D33184E001BF3B5 /* OrderListController.h */; };
+		EAC20D891D5B8B79004FA964 /* OrderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2F51D33184E001BF3B5 /* OrderListController.m */; };
+		EAC20D8A1D5B8B79004FA964 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = EAC598F11D38629700020D9A /* Assets.xcassets */; };
+		EAC20D8B1D5B8B79004FA964 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2D51D3316D6001BF3B5 /* PrefixHeader.pch */; };
+		EAC20D8C1D5B8B79004FA964 /* Default-568h@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2001D30AFF9001BF3B5 /* Default-568h@2x.png */; };
+		EAC20D8D1D5B8B79004FA964 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1DE1D301105001BF3B5 /* Info.plist */; };
+		EAC20D8E1D5B8B79004FA964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1CE1D301105001BF3B5 /* main.m */; };
+		EAC20D8F1D5B8B79004FA964 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1D01D301105001BF3B5 /* AppDelegate.h */; };
+		EAC20D901D5B8B79004FA964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC1D11D301105001BF3B5 /* AppDelegate.m */; };
 		EAC598F21D38629700020D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC598F11D38629700020D9A /* Assets.xcassets */; };
-		EAC598FD1D3B704B00020D9A /* ProductAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FC1D3B704B00020D9A /* ProductAttr.m */; };
-		EAC599001D3B725A00020D9A /* ProductAttrItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC598FF1D3B725A00020D9A /* ProductAttrItem.m */; };
-		EAC599031D3B729800020D9A /* ProductAttrItemValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC599021D3B729800020D9A /* ProductAttrItemValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1200,122 +1325,247 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1AC2D11D31167A001BF3B5 /* StorageUtil.m in Sources */,
-				EA1AC2A21D3115E9001BF3B5 /* ProductAttributeItemEntity.m in Sources */,
-				EA1AC2EF1D331838001BF3B5 /* OrderListCell.m in Sources */,
-				EA1AC2131D30B31E001BF3B5 /* TAPageControl.m in Sources */,
-				EAC598FD1D3B704B00020D9A /* ProductAttr.m in Sources */,
-				EA1AC2A71D3115E9001BF3B5 /* CouponUserEntity.m in Sources */,
-				EA1AC2B01D3115E9001BF3B5 /* OrderItemAttributeEntity.m in Sources */,
-				EA1AC2771D3113F6001BF3B5 /* ProductCategory.m in Sources */,
-				EA1AC2381D30B443001BF3B5 /* TabHomeController.m in Sources */,
-				EA1AC34B1D331962001BF3B5 /* PreorderAddressCell.m in Sources */,
-				EA1AC25A1D30B529001BF3B5 /* TabMyCell.m in Sources */,
-				EA1AC2261D30B3AD001BF3B5 /* NetworkBrokenView.m in Sources */,
-				EA3F6EE01D47A18B00CADA05 /* CartItem.m in Sources */,
-				EA1AC3511D331962001BF3B5 /* PreorderSummaryCell.m in Sources */,
-				EAC20C9B1D522CE5004FA964 /* OrderItem.m in Sources */,
-				EA1AC31D1D331923001BF3B5 /* UserRegisterStep1View.m in Sources */,
-				EA1AC30B1D331912001BF3B5 /* UserRegisterStep3Controller.m in Sources */,
-				EA1AC2A51D3115E9001BF3B5 /* CartItemEntity.m in Sources */,
-				EA1AC2591D30B529001BF3B5 /* TabMyOrderItemCell.m in Sources */,
-				EA1AC22C1D30B3F8001BF3B5 /* BaseModel.m in Sources */,
-				EA1AC31C1D331923001BF3B5 /* UserLoginView.m in Sources */,
-				EA1AC31F1D331923001BF3B5 /* UserRegisterStep3View.m in Sources */,
-				EA1AC2791D3113F7001BF3B5 /* Preorder.m in Sources */,
-				EA1AC2A61D3115E9001BF3B5 /* CartItemAttributeEntity.m in Sources */,
-				EA1AC25F1D30B537001BF3B5 /* TabCartItemCell.m in Sources */,
-				EA1AC2651D31133B001BF3B5 /* ProductController.m in Sources */,
-				EA1AC2501D30B51C001BF3B5 /* TabTopicTopCell.m in Sources */,
-				EA1AC35F1D3319AF001BF3B5 /* AddressEditController.m in Sources */,
-				EA1AC27C1D3113F7001BF3B5 /* Area.m in Sources */,
-				EA1AC3211D331923001BF3B5 /* UserInfoView.m in Sources */,
-				EA1AC2781D3113F7001BF3B5 /* Cart.m in Sources */,
-				EA1AC2CF1D31167A001BF3B5 /* FormatUtil.m in Sources */,
-				EA1AC2E41D33180E001BF3B5 /* ProductAttrCell.m in Sources */,
-				EA1AC2121D30B31E001BF3B5 /* TADotView.m in Sources */,
-				EA3F6EE31D47A1A300CADA05 /* CartItemAttr.m in Sources */,
-				EA1AC3091D331912001BF3B5 /* UserRegisterStep1Controller.m in Sources */,
-				EA1AC2421D30B459001BF3B5 /* TabMySettingController.m in Sources */,
-				EA1AC21C1D30B32F001BF3B5 /* UIView+SDExtension.m in Sources */,
-				EA1AC2101D30B31E001BF3B5 /* TAAbstractDotView.m in Sources */,
-				EA1AC3561D331980001BF3B5 /* PreorderController.m in Sources */,
-				EA3F6EE61D47A1ED00CADA05 /* Coupon.m in Sources */,
-				EA1AC3601D3319AF001BF3B5 /* AddressAddController.m in Sources */,
-				EA1AC2CE1D31167A001BF3B5 /* HttpClient.m in Sources */,
-				EA1AC2AF1D3115E9001BF3B5 /* OrderItemEntity.m in Sources */,
-				EA1AC2A91D3115E9001BF3B5 /* PreorderItemEntity.m in Sources */,
-				EA1AC2F81D33184E001BF3B5 /* OrderListController.m in Sources */,
-				EA1AC2D01D31167A001BF3B5 /* PriceLabel.m in Sources */,
-				EA1AC34D1D331962001BF3B5 /* PreorderItemView.m in Sources */,
-				EA1AC2A41D3115E9001BF3B5 /* ProductEntity.m in Sources */,
-				EA1AC2DB1D3317AC001BF3B5 /* ProductForm.m in Sources */,
-				EA1AC2601D30B537001BF3B5 /* TabCartSubmitBar.m in Sources */,
-				EA1AC2EE1D331838001BF3B5 /* OrderDetailStatusCell.m in Sources */,
-				EA1AC2431D30B459001BF3B5 /* TabMyAboutUsController.m in Sources */,
-				EA1AC2241D30B3AD001BF3B5 /* BaseController.m in Sources */,
-				EA1AC23C1D30B443001BF3B5 /* CartController.m in Sources */,
-				EA1AC35E1D3319AF001BF3B5 /* AddressListController.m in Sources */,
-				EA1AC3501D331962001BF3B5 /* PreorderCouponCell.m in Sources */,
-				EA1AC2D81D33177C001BF3B5 /* UIColor+hexColor.m in Sources */,
-				EA1AC2AC1D3115E9001BF3B5 /* AddressEntity.m in Sources */,
-				EA1AC2CD1D31167A001BF3B5 /* Utils.m in Sources */,
-				EA1AC2A31D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m in Sources */,
-				EA1AC2E31D33180E001BF3B5 /* ProductInfoCell.m in Sources */,
-				EA1AC34E1D331962001BF3B5 /* PreorderItemsCell.m in Sources */,
-				EA1AC30A1D331912001BF3B5 /* UserRegisterStep2Controller.m in Sources */,
-				EA1AC2291D30B3E6001BF3B5 /* BaseEntity.m in Sources */,
-				EA1AC3081D331912001BF3B5 /* UserLoginController.m in Sources */,
-				EA1AC21B1D30B32F001BF3B5 /* SDCycleScrollView.m in Sources */,
-				EA1AC27B1D3113F7001BF3B5 /* Address.m in Sources */,
-				EA1AC1D21D301105001BF3B5 /* AppDelegate.m in Sources */,
-				EA1AC2AE1D3115E9001BF3B5 /* OrderEntity.m in Sources */,
-				EA1AC34C1D331962001BF3B5 /* PreorderPayCell.m in Sources */,
-				EA1AC24B1D30B513001BF3B5 /* TabHomeRightTableCell.m in Sources */,
-				EA1AC2251D30B3AD001BF3B5 /* BaseLoadingView.m in Sources */,
-				EA1AC27A1D3113F7001BF3B5 /* User.m in Sources */,
-				EA1AC3521D331962001BF3B5 /* PreorderSubmitView.m in Sources */,
-				EAC20C951D5212E1004FA964 /* PreorderItemAttr.m in Sources */,
-				EA1AC3751D331A09001BF3B5 /* LocationShopController.m in Sources */,
-				EA1AC2D21D31167A001BF3B5 /* ValidatorUtil.m in Sources */,
-				EA1AC30E1D331912001BF3B5 /* UserForgetPasswordController.m in Sources */,
-				EA1AC2CC1D31167A001BF3B5 /* DbUtil.m in Sources */,
-				EA1AC3201D331923001BF3B5 /* UserRegisterSuccessView.m in Sources */,
-				EA1AC2AD1D3115E9001BF3B5 /* UserEntity.m in Sources */,
-				EA1AC23A1D30B443001BF3B5 /* TabCartController.m in Sources */,
-				EA1AC30D1D331912001BF3B5 /* UserInfoController.m in Sources */,
-				EA1AC36D1D3319C3001BF3B5 /* AddressAddView.m in Sources */,
-				EA1AC30C1D331912001BF3B5 /* UserRegisterSuccessController.m in Sources */,
-				EA1AC2581D30B529001BF3B5 /* TabMyHeadCell.m in Sources */,
-				EA1AC2F71D33184E001BF3B5 /* OrderDetailController.m in Sources */,
-				EA1AC23B1D30B443001BF3B5 /* TabMyController.m in Sources */,
-				EA1AC2B11D3115E9001BF3B5 /* OrderStatus.m in Sources */,
-				EA1AC2E51D33180E001BF3B5 /* ProductBottomView.m in Sources */,
-				EAC20C921D5212BA004FA964 /* PreorderItem.m in Sources */,
-				EA1AC2D31D31167A001BF3B5 /* ButtonUtil.m in Sources */,
-				EA3F6EE91D47A20200CADA05 /* CouponUser.m in Sources */,
-				EA1AC27D1D3113F7001BF3B5 /* Order.m in Sources */,
-				EA1AC2391D30B443001BF3B5 /* TabTopicController.m in Sources */,
-				EA1AC2761D3113F6001BF3B5 /* Product.m in Sources */,
-				EA1AC2111D30B31E001BF3B5 /* TAAnimatedDotView.m in Sources */,
-				EA1AC3711D3319F4001BF3B5 /* LocationAnnotationModel.m in Sources */,
-				EAC599001D3B725A00020D9A /* ProductAttrItem.m in Sources */,
-				EA1AC2AA1D3115E9001BF3B5 /* PreorderItemAttributeEntity.m in Sources */,
-				EA1AC1CF1D301105001BF3B5 /* main.m in Sources */,
-				EA1AC31E1D331923001BF3B5 /* UserRegisterStep2View.m in Sources */,
-				EA1AC21A1D30B32F001BF3B5 /* SDCollectionViewCell.m in Sources */,
-				EA1AC2D41D31167A001BF3B5 /* StringUtil.m in Sources */,
-				EA1AC2AB1D3115E9001BF3B5 /* AreaEntity.m in Sources */,
-				EA1AC2511D30B51C001BF3B5 /* TabTopicProductCell.m in Sources */,
-				EA1AC34F1D331962001BF3B5 /* PreorderNoteCell.m in Sources */,
-				EAC20C9E1D522CF7004FA964 /* OrderItemAttr.m in Sources */,
-				EAC599031D3B729800020D9A /* ProductAttrItemValue.m in Sources */,
-				EA1AC36A1D3319C3001BF3B5 /* AddressListCell.m in Sources */,
-				EA1AC36B1D3319C3001BF3B5 /* AddressListEmptyCell.m in Sources */,
-				EA1AC36C1D3319C3001BF3B5 /* AddressAddBtn.m in Sources */,
-				EA1AC2A81D3115E9001BF3B5 /* PreorderEntity.m in Sources */,
-				EA1AC2F61D33184E001BF3B5 /* OrderSuccessController.m in Sources */,
-				EA1AC2ED1D331838001BF3B5 /* OrderSuccessView.m in Sources */,
+				EAC20CA01D5B8B78004FA964 /* DbUtil.h in Sources */,
+				EAC20CA11D5B8B78004FA964 /* DbUtil.m in Sources */,
+				EAC20CA21D5B8B78004FA964 /* Utils.h in Sources */,
+				EAC20CA31D5B8B78004FA964 /* Utils.m in Sources */,
+				EAC20CA41D5B8B78004FA964 /* HttpClient.h in Sources */,
+				EAC20CA51D5B8B78004FA964 /* HttpClient.m in Sources */,
+				EAC20CA61D5B8B78004FA964 /* FormatUtil.h in Sources */,
+				EAC20CA71D5B8B78004FA964 /* FormatUtil.m in Sources */,
+				EAC20CA81D5B8B78004FA964 /* PriceLabel.h in Sources */,
+				EAC20CA91D5B8B78004FA964 /* PriceLabel.m in Sources */,
+				EAC20CAA1D5B8B78004FA964 /* StorageUtil.h in Sources */,
+				EAC20CAB1D5B8B78004FA964 /* StorageUtil.m in Sources */,
+				EAC20CAC1D5B8B78004FA964 /* ValidatorUtil.h in Sources */,
+				EAC20CAD1D5B8B78004FA964 /* ValidatorUtil.m in Sources */,
+				EAC20CAE1D5B8B78004FA964 /* ButtonUtil.h in Sources */,
+				EAC20CAF1D5B8B78004FA964 /* ButtonUtil.m in Sources */,
+				EAC20CB01D5B8B78004FA964 /* StringUtil.h in Sources */,
+				EAC20CB11D5B8B78004FA964 /* StringUtil.m in Sources */,
+				EAC20CB21D5B8B78004FA964 /* common_macro.h in Sources */,
+				EAC20CB31D5B8B78004FA964 /* db_macro.h in Sources */,
+				EAC20CB41D5B8B78004FA964 /* url_macro.h in Sources */,
+				EAC20CB51D5B8B78004FA964 /* storage_macro.h in Sources */,
+				EAC20CB61D5B8B78004FA964 /* remote_macro.h in Sources */,
+				EAC20CB71D5B8B78004FA964 /* notify_macro.h in Sources */,
+				EAC20CB81D5B8B78004FA964 /* UIColor+hexColor.h in Sources */,
+				EAC20CB91D5B8B78004FA964 /* UIColor+hexColor.m in Sources */,
+				EAC20CBA1D5B8B78004FA964 /* BaseController.h in Sources */,
+				EAC20CBB1D5B8B78004FA964 /* BaseController.m in Sources */,
+				EAC20CBC1D5B8B78004FA964 /* BaseModel.h in Sources */,
+				EAC20CBD1D5B8B78004FA964 /* BaseModel.m in Sources */,
+				EAC20CBE1D5B8B78004FA964 /* BaseEntity.h in Sources */,
+				EAC20CBF1D5B8B78004FA964 /* BaseEntity.m in Sources */,
+				EAC20CC01D5B8B78004FA964 /* BaseLoadingView.h in Sources */,
+				EAC20CC11D5B8B78004FA964 /* BaseLoadingView.m in Sources */,
+				EAC20CC21D5B8B78004FA964 /* NetworkBrokenView.h in Sources */,
+				EAC20CC31D5B8B78004FA964 /* NetworkBrokenView.m in Sources */,
+				EAC20CC41D5B8B78004FA964 /* ProductForm.h in Sources */,
+				EAC20CC51D5B8B78004FA964 /* ProductForm.m in Sources */,
+				EAC20CC61D5B8B78004FA964 /* SDCollectionViewCell.h in Sources */,
+				EAC20CC71D5B8B78004FA964 /* SDCollectionViewCell.m in Sources */,
+				EAC20CC81D5B8B78004FA964 /* SDCycleScrollView.h in Sources */,
+				EAC20CC91D5B8B78004FA964 /* SDCycleScrollView.m in Sources */,
+				EAC20CCA1D5B8B78004FA964 /* UIView+SDExtension.h in Sources */,
+				EAC20CCB1D5B8B78004FA964 /* UIView+SDExtension.m in Sources */,
+				EAC20CCC1D5B8B78004FA964 /* TAAbstractDotView.h in Sources */,
+				EAC20CCD1D5B8B78004FA964 /* TAAbstractDotView.m in Sources */,
+				EAC20CCE1D5B8B78004FA964 /* TAAnimatedDotView.h in Sources */,
+				EAC20CCF1D5B8B78004FA964 /* TAAnimatedDotView.m in Sources */,
+				EAC20CD01D5B8B78004FA964 /* TADotView.h in Sources */,
+				EAC20CD11D5B8B78004FA964 /* TADotView.m in Sources */,
+				EAC20CD21D5B8B78004FA964 /* TAPageControl.h in Sources */,
+				EAC20CD31D5B8B78004FA964 /* TAPageControl.m in Sources */,
+				EAC20CD41D5B8B78004FA964 /* AddressListCell.h in Sources */,
+				EAC20CD51D5B8B78004FA964 /* AddressListCell.m in Sources */,
+				EAC20CD61D5B8B78004FA964 /* AddressListEmptyCell.h in Sources */,
+				EAC20CD71D5B8B78004FA964 /* AddressListEmptyCell.m in Sources */,
+				EAC20CD81D5B8B78004FA964 /* AddressAddBtn.h in Sources */,
+				EAC20CD91D5B8B78004FA964 /* AddressAddBtn.m in Sources */,
+				EAC20CDA1D5B8B78004FA964 /* AddressAddView.h in Sources */,
+				EAC20CDB1D5B8B78004FA964 /* AddressAddView.m in Sources */,
+				EAC20CDC1D5B8B78004FA964 /* PreorderAddressCell.h in Sources */,
+				EAC20CDD1D5B8B78004FA964 /* PreorderAddressCell.m in Sources */,
+				EAC20CDE1D5B8B78004FA964 /* PreorderPayCell.h in Sources */,
+				EAC20CDF1D5B8B78004FA964 /* PreorderPayCell.m in Sources */,
+				EAC20CE01D5B8B78004FA964 /* PreorderItemView.h in Sources */,
+				EAC20CE11D5B8B78004FA964 /* PreorderItemView.m in Sources */,
+				EAC20CE21D5B8B78004FA964 /* PreorderItemsCell.h in Sources */,
+				EAC20CE31D5B8B78004FA964 /* PreorderItemsCell.m in Sources */,
+				EAC20CE41D5B8B78004FA964 /* PreorderNoteCell.h in Sources */,
+				EAC20CE51D5B8B78004FA964 /* PreorderNoteCell.m in Sources */,
+				EAC20CE61D5B8B78004FA964 /* PreorderCouponCell.h in Sources */,
+				EAC20CE71D5B8B78004FA964 /* PreorderCouponCell.m in Sources */,
+				EAC20CE81D5B8B78004FA964 /* PreorderSummaryCell.h in Sources */,
+				EAC20CE91D5B8B78004FA964 /* PreorderSummaryCell.m in Sources */,
+				EAC20CEA1D5B8B78004FA964 /* PreorderSubmitView.h in Sources */,
+				EAC20CEB1D5B8B78004FA964 /* PreorderSubmitView.m in Sources */,
+				EAC20CEC1D5B8B78004FA964 /* UserLoginView.h in Sources */,
+				EAC20CED1D5B8B78004FA964 /* UserLoginView.m in Sources */,
+				EAC20CEE1D5B8B78004FA964 /* UserRegisterStep1View.h in Sources */,
+				EAC20CEF1D5B8B78004FA964 /* UserRegisterStep1View.m in Sources */,
+				EAC20CF01D5B8B78004FA964 /* UserRegisterStep2View.h in Sources */,
+				EAC20CF11D5B8B78004FA964 /* UserRegisterStep2View.m in Sources */,
+				EAC20CF21D5B8B78004FA964 /* UserRegisterStep3View.h in Sources */,
+				EAC20CF31D5B8B78004FA964 /* UserRegisterStep3View.m in Sources */,
+				EAC20CF41D5B8B78004FA964 /* UserRegisterSuccessView.h in Sources */,
+				EAC20CF51D5B8B78004FA964 /* UserRegisterSuccessView.m in Sources */,
+				EAC20CF61D5B8B78004FA964 /* UserInfoView.h in Sources */,
+				EAC20CF71D5B8B78004FA964 /* UserInfoView.m in Sources */,
+				EAC20CF81D5B8B78004FA964 /* OrderSuccessView.h in Sources */,
+				EAC20CF91D5B8B78004FA964 /* OrderSuccessView.m in Sources */,
+				EAC20CFA1D5B8B78004FA964 /* OrderDetailStatusCell.h in Sources */,
+				EAC20CFB1D5B8B78004FA964 /* OrderDetailStatusCell.m in Sources */,
+				EAC20CFC1D5B8B78004FA964 /* OrderListCell.h in Sources */,
+				EAC20CFD1D5B8B78004FA964 /* OrderListCell.m in Sources */,
+				EAC20CFE1D5B8B78004FA964 /* ProductInfoCell.h in Sources */,
+				EAC20CFF1D5B8B78004FA964 /* ProductInfoCell.m in Sources */,
+				EAC20D001D5B8B78004FA964 /* ProductAttrCell.h in Sources */,
+				EAC20D011D5B8B78004FA964 /* ProductAttrCell.m in Sources */,
+				EAC20D021D5B8B78004FA964 /* ProductBottomView.h in Sources */,
+				EAC20D031D5B8B78004FA964 /* ProductBottomView.m in Sources */,
+				EAC20D041D5B8B78004FA964 /* TabCartItemCell.h in Sources */,
+				EAC20D051D5B8B78004FA964 /* TabCartItemCell.m in Sources */,
+				EAC20D061D5B8B78004FA964 /* TabCartSubmitBar.h in Sources */,
+				EAC20D071D5B8B78004FA964 /* TabCartSubmitBar.m in Sources */,
+				EAC20D081D5B8B78004FA964 /* TabMyHeadCell.h in Sources */,
+				EAC20D091D5B8B78004FA964 /* TabMyHeadCell.m in Sources */,
+				EAC20D0A1D5B8B78004FA964 /* TabMyOrderItemCell.h in Sources */,
+				EAC20D0B1D5B8B78004FA964 /* TabMyOrderItemCell.m in Sources */,
+				EAC20D0C1D5B8B78004FA964 /* TabMyCell.h in Sources */,
+				EAC20D0D1D5B8B78004FA964 /* TabMyCell.m in Sources */,
+				EAC20D0E1D5B8B78004FA964 /* TabTopicTopCell.h in Sources */,
+				EAC20D0F1D5B8B78004FA964 /* TabTopicTopCell.m in Sources */,
+				EAC20D101D5B8B78004FA964 /* TabTopicProductCell.h in Sources */,
+				EAC20D111D5B8B78004FA964 /* TabTopicProductCell.m in Sources */,
+				EAC20D121D5B8B78004FA964 /* TabHomeRightTableCell.h in Sources */,
+				EAC20D131D5B8B78004FA964 /* TabHomeRightTableCell.m in Sources */,
+				EAC20D141D5B8B78004FA964 /* ProductAttributeItemEntity.h in Sources */,
+				EAC20D151D5B8B78004FA964 /* ProductAttributeItemEntity.m in Sources */,
+				EAC20D161D5B8B78004FA964 /* ProductAttributeItemValueEntity.h in Sources */,
+				EAC20D171D5B8B78004FA964 /* ProductAttributeItemValueEntity.m in Sources */,
+				EAC20D181D5B8B78004FA964 /* ProductEntity.h in Sources */,
+				EAC20D191D5B8B78004FA964 /* ProductEntity.m in Sources */,
+				EAC20D1A1D5B8B78004FA964 /* CartItemEntity.h in Sources */,
+				EAC20D1B1D5B8B78004FA964 /* CartItemEntity.m in Sources */,
+				EAC20D1C1D5B8B78004FA964 /* CartItemAttributeEntity.h in Sources */,
+				EAC20D1D1D5B8B78004FA964 /* CartItemAttributeEntity.m in Sources */,
+				EAC20D1E1D5B8B78004FA964 /* CouponUserEntity.h in Sources */,
+				EAC20D1F1D5B8B78004FA964 /* CouponUserEntity.m in Sources */,
+				EAC20D201D5B8B78004FA964 /* PreorderEntity.h in Sources */,
+				EAC20D211D5B8B78004FA964 /* PreorderEntity.m in Sources */,
+				EAC20D221D5B8B78004FA964 /* PreorderItemEntity.h in Sources */,
+				EAC20D231D5B8B78004FA964 /* PreorderItemEntity.m in Sources */,
+				EAC20D241D5B8B78004FA964 /* PreorderItemAttributeEntity.h in Sources */,
+				EAC20D251D5B8B78004FA964 /* PreorderItemAttributeEntity.m in Sources */,
+				EAC20D261D5B8B78004FA964 /* AreaEntity.h in Sources */,
+				EAC20D271D5B8B78004FA964 /* AreaEntity.m in Sources */,
+				EAC20D281D5B8B78004FA964 /* AddressEntity.h in Sources */,
+				EAC20D291D5B8B78004FA964 /* AddressEntity.m in Sources */,
+				EAC20D2A1D5B8B78004FA964 /* UserEntity.h in Sources */,
+				EAC20D2B1D5B8B78004FA964 /* UserEntity.m in Sources */,
+				EAC20D2C1D5B8B78004FA964 /* OrderEntity.h in Sources */,
+				EAC20D2D1D5B8B78004FA964 /* OrderEntity.m in Sources */,
+				EAC20D2E1D5B8B78004FA964 /* OrderItemEntity.h in Sources */,
+				EAC20D2F1D5B8B78004FA964 /* OrderItemEntity.m in Sources */,
+				EAC20D301D5B8B78004FA964 /* OrderItemAttributeEntity.h in Sources */,
+				EAC20D311D5B8B78004FA964 /* OrderItemAttributeEntity.m in Sources */,
+				EAC20D321D5B8B78004FA964 /* Address.h in Sources */,
+				EAC20D331D5B8B78004FA964 /* Address.m in Sources */,
+				EAC20D341D5B8B78004FA964 /* Area.h in Sources */,
+				EAC20D351D5B8B78004FA964 /* Area.m in Sources */,
+				EAC20D361D5B8B78004FA964 /* LocationAnnotationModel.h in Sources */,
+				EAC20D371D5B8B78004FA964 /* LocationAnnotationModel.m in Sources */,
+				EAC20D381D5B8B78004FA964 /* Product.h in Sources */,
+				EAC20D391D5B8B78004FA964 /* Product.m in Sources */,
+				EAC20D3A1D5B8B79004FA964 /* ProductAttr.h in Sources */,
+				EAC20D3B1D5B8B79004FA964 /* ProductAttr.m in Sources */,
+				EAC20D3C1D5B8B79004FA964 /* ProductAttrItem.h in Sources */,
+				EAC20D3D1D5B8B79004FA964 /* ProductAttrItem.m in Sources */,
+				EAC20D3E1D5B8B79004FA964 /* ProductAttrItemValue.h in Sources */,
+				EAC20D3F1D5B8B79004FA964 /* ProductAttrItemValue.m in Sources */,
+				EAC20D401D5B8B79004FA964 /* ProductCategory.h in Sources */,
+				EAC20D411D5B8B79004FA964 /* ProductCategory.m in Sources */,
+				EAC20D421D5B8B79004FA964 /* Cart.h in Sources */,
+				EAC20D431D5B8B79004FA964 /* Cart.m in Sources */,
+				EAC20D441D5B8B79004FA964 /* CartItem.h in Sources */,
+				EAC20D451D5B8B79004FA964 /* CartItem.m in Sources */,
+				EAC20D461D5B8B79004FA964 /* CartItemAttr.h in Sources */,
+				EAC20D471D5B8B79004FA964 /* CartItemAttr.m in Sources */,
+				EAC20D481D5B8B79004FA964 /* Coupon.h in Sources */,
+				EAC20D491D5B8B79004FA964 /* Coupon.m in Sources */,
+				EAC20D4A1D5B8B79004FA964 /* CouponUser.h in Sources */,
+				EAC20D4B1D5B8B79004FA964 /* CouponUser.m in Sources */,
+				EAC20D4C1D5B8B79004FA964 /* Preorder.h in Sources */,
+				EAC20D4D1D5B8B79004FA964 /* Preorder.m in Sources */,
+				EAC20D4E1D5B8B79004FA964 /* PreorderItem.h in Sources */,
+				EAC20D4F1D5B8B79004FA964 /* PreorderItem.m in Sources */,
+				EAC20D501D5B8B79004FA964 /* PreorderItemAttr.h in Sources */,
+				EAC20D511D5B8B79004FA964 /* PreorderItemAttr.m in Sources */,
+				EAC20D521D5B8B79004FA964 /* Order.h in Sources */,
+				EAC20D531D5B8B79004FA964 /* Order.m in Sources */,
+				EAC20D541D5B8B79004FA964 /* OrderItem.h in Sources */,
+				EAC20D551D5B8B79004FA964 /* OrderItem.m in Sources */,
+				EAC20D561D5B8B79004FA964 /* OrderItemAttr.h in Sources */,
+				EAC20D571D5B8B79004FA964 /* OrderItemAttr.m in Sources */,
+				EAC20D581D5B8B79004FA964 /* OrderStatus.h in Sources */,
+				EAC20D591D5B8B79004FA964 /* OrderStatus.m in Sources */,
+				EAC20D5A1D5B8B79004FA964 /* User.h in Sources */,
+				EAC20D5B1D5B8B79004FA964 /* User.m in Sources */,
+				EAC20D5C1D5B8B79004FA964 /* TabMySettingController.h in Sources */,
+				EAC20D5D1D5B8B79004FA964 /* TabMySettingController.m in Sources */,
+				EAC20D5E1D5B8B79004FA964 /* TabMyAboutUsController.h in Sources */,
+				EAC20D5F1D5B8B79004FA964 /* TabMyAboutUsController.m in Sources */,
+				EAC20D601D5B8B79004FA964 /* TabHomeController.h in Sources */,
+				EAC20D611D5B8B79004FA964 /* TabHomeController.m in Sources */,
+				EAC20D621D5B8B79004FA964 /* TabTopicController.h in Sources */,
+				EAC20D631D5B8B79004FA964 /* TabTopicController.m in Sources */,
+				EAC20D641D5B8B79004FA964 /* TabCartController.h in Sources */,
+				EAC20D651D5B8B79004FA964 /* TabCartController.m in Sources */,
+				EAC20D661D5B8B79004FA964 /* TabMyController.h in Sources */,
+				EAC20D671D5B8B79004FA964 /* TabMyController.m in Sources */,
+				EAC20D681D5B8B79004FA964 /* CartController.h in Sources */,
+				EAC20D691D5B8B79004FA964 /* CartController.m in Sources */,
+				EAC20D6A1D5B8B79004FA964 /* LocationShopController.h in Sources */,
+				EAC20D6B1D5B8B79004FA964 /* LocationShopController.m in Sources */,
+				EAC20D6C1D5B8B79004FA964 /* AddressListController.h in Sources */,
+				EAC20D6D1D5B8B79004FA964 /* AddressListController.m in Sources */,
+				EAC20D6E1D5B8B79004FA964 /* AddressEditController.h in Sources */,
+				EAC20D6F1D5B8B79004FA964 /* AddressEditController.m in Sources */,
+				EAC20D701D5B8B79004FA964 /* AddressAddController.h in Sources */,
+				EAC20D711D5B8B79004FA964 /* AddressAddController.m in Sources */,
+				EAC20D721D5B8B79004FA964 /* PreorderController.h in Sources */,
+				EAC20D731D5B8B79004FA964 /* PreorderController.m in Sources */,
+				EAC20D741D5B8B79004FA964 /* UserLoginController.h in Sources */,
+				EAC20D751D5B8B79004FA964 /* UserLoginController.m in Sources */,
+				EAC20D761D5B8B79004FA964 /* UserRegisterStep1Controller.h in Sources */,
+				EAC20D771D5B8B79004FA964 /* UserRegisterStep1Controller.m in Sources */,
+				EAC20D781D5B8B79004FA964 /* UserRegisterStep2Controller.h in Sources */,
+				EAC20D791D5B8B79004FA964 /* UserRegisterStep2Controller.m in Sources */,
+				EAC20D7A1D5B8B79004FA964 /* UserRegisterStep3Controller.h in Sources */,
+				EAC20D7B1D5B8B79004FA964 /* UserRegisterStep3Controller.m in Sources */,
+				EAC20D7C1D5B8B79004FA964 /* UserRegisterSuccessController.h in Sources */,
+				EAC20D7D1D5B8B79004FA964 /* UserRegisterSuccessController.m in Sources */,
+				EAC20D7E1D5B8B79004FA964 /* UserInfoController.h in Sources */,
+				EAC20D7F1D5B8B79004FA964 /* UserInfoController.m in Sources */,
+				EAC20D801D5B8B79004FA964 /* UserForgetPasswordController.h in Sources */,
+				EAC20D811D5B8B79004FA964 /* UserForgetPasswordController.m in Sources */,
+				EAC20D821D5B8B79004FA964 /* ProductController.h in Sources */,
+				EAC20D831D5B8B79004FA964 /* ProductController.m in Sources */,
+				EAC20D841D5B8B79004FA964 /* OrderSuccessController.h in Sources */,
+				EAC20D851D5B8B79004FA964 /* OrderSuccessController.m in Sources */,
+				EAC20D861D5B8B79004FA964 /* OrderDetailController.h in Sources */,
+				EAC20D871D5B8B79004FA964 /* OrderDetailController.m in Sources */,
+				EAC20D881D5B8B79004FA964 /* OrderListController.h in Sources */,
+				EAC20D891D5B8B79004FA964 /* OrderListController.m in Sources */,
+				EAC20D8A1D5B8B79004FA964 /* Assets.xcassets in Sources */,
+				EAC20D8B1D5B8B79004FA964 /* PrefixHeader.pch in Sources */,
+				EAC20D8C1D5B8B79004FA964 /* Default-568h@2x.png in Sources */,
+				EAC20D8D1D5B8B79004FA964 /* Info.plist in Sources */,
+				EAC20D8E1D5B8B79004FA964 /* main.m in Sources */,
+				EAC20D8F1D5B8B79004FA964 /* AppDelegate.h in Sources */,
+				EAC20D901D5B8B79004FA964 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

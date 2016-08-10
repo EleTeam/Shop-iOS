@@ -42,7 +42,7 @@ DEPENDENCIES:
   - jastor (~> 0.2.1)
   - Masonry (~> 0.6.4)
   - MBProgressHUD (~> 0.9.2)
-  - MJExtension
+  - MJExtension (~> 3.0.13)
   - OCMock
   - SDWebImage (~> 3.7.1)
   - TouchJSON (~> 1.1)
@@ -61,6 +61,6 @@ SPEC CHECKSUMS:
   TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
 
-PODFILE CHECKSUM: 0d4a2b777b8486175cbfe5248d719c331c7280bf
+PODFILE CHECKSUM: cae819c2bae1b05df02f2233f7d86f7c266dbe77
 
 COCOAPODS: 1.0.1
