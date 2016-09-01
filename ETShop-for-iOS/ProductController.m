@@ -21,7 +21,7 @@
 
 //测试其他控制的页面
 #import "OrderSuccessController.h"
-#import "OrderEntity.h"
+#import "Order.h"
 
 
 //产品信息块的划分

@@ -12,7 +12,7 @@
 
 #import "AddressAddView.h"
 #import "ButtonUtil.h"
-#import "AreaEntity.h"
+#import "Area.h"
 #import "ActionSheetStringPicker.h"
 #import "StringUtil.h"
 
@@ -229,7 +229,7 @@
     NSArray *childrenArea;
     if (_chainedAreas.count > 0) {
         childrenArea = [_chainedAreas[_chainedAreas.count-1] objectForKey:@"children"];
-        for (AreaEntity *area in childrenArea) {
+        for (Area *area in childrenArea) {
             [areaNames addObject:area.name];
         }
     }
@@ -244,7 +244,7 @@
                                             [weakSender setTitle:selectedValue forState:UIControlStateNormal];
                                             _pickerSelectedIndex = selectedIndex;
                                             if (selectedIndex >= 1) {
-                                                AreaEntity *area = childrenArea[selectedIndex-1];
+                                                Area *area = childrenArea[selectedIndex-1];
                                                 _areaId = area.id;
                                             }
                                         }

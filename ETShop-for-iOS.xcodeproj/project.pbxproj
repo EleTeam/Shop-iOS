@@ -128,36 +128,6 @@
 		EAC20D111D5B8B78004FA964 /* TabTopicProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24F1D30B51C001BF3B5 /* TabTopicProductCell.m */; };
 		EAC20D121D5B8B78004FA964 /* TabHomeRightTableCell.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2491D30B513001BF3B5 /* TabHomeRightTableCell.h */; };
 		EAC20D131D5B8B78004FA964 /* TabHomeRightTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC24A1D30B513001BF3B5 /* TabHomeRightTableCell.m */; };
-		EAC20D141D5B8B78004FA964 /* ProductAttributeItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2811D3115E9001BF3B5 /* ProductAttributeItemEntity.h */; };
-		EAC20D151D5B8B78004FA964 /* ProductAttributeItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */; };
-		EAC20D161D5B8B78004FA964 /* ProductAttributeItemValueEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2831D3115E9001BF3B5 /* ProductAttributeItemValueEntity.h */; };
-		EAC20D171D5B8B78004FA964 /* ProductAttributeItemValueEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2841D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m */; };
-		EAC20D181D5B8B78004FA964 /* ProductEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2851D3115E9001BF3B5 /* ProductEntity.h */; };
-		EAC20D191D5B8B78004FA964 /* ProductEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2861D3115E9001BF3B5 /* ProductEntity.m */; };
-		EAC20D1A1D5B8B78004FA964 /* CartItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2871D3115E9001BF3B5 /* CartItemEntity.h */; };
-		EAC20D1B1D5B8B78004FA964 /* CartItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2881D3115E9001BF3B5 /* CartItemEntity.m */; };
-		EAC20D1C1D5B8B78004FA964 /* CartItemAttributeEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2891D3115E9001BF3B5 /* CartItemAttributeEntity.h */; };
-		EAC20D1D1D5B8B78004FA964 /* CartItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28A1D3115E9001BF3B5 /* CartItemAttributeEntity.m */; };
-		EAC20D1E1D5B8B78004FA964 /* CouponUserEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28B1D3115E9001BF3B5 /* CouponUserEntity.h */; };
-		EAC20D1F1D5B8B78004FA964 /* CouponUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28C1D3115E9001BF3B5 /* CouponUserEntity.m */; };
-		EAC20D201D5B8B78004FA964 /* PreorderEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28D1D3115E9001BF3B5 /* PreorderEntity.h */; };
-		EAC20D211D5B8B78004FA964 /* PreorderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28E1D3115E9001BF3B5 /* PreorderEntity.m */; };
-		EAC20D221D5B8B78004FA964 /* PreorderItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC28F1D3115E9001BF3B5 /* PreorderItemEntity.h */; };
-		EAC20D231D5B8B78004FA964 /* PreorderItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2901D3115E9001BF3B5 /* PreorderItemEntity.m */; };
-		EAC20D241D5B8B78004FA964 /* PreorderItemAttributeEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2911D3115E9001BF3B5 /* PreorderItemAttributeEntity.h */; };
-		EAC20D251D5B8B78004FA964 /* PreorderItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2921D3115E9001BF3B5 /* PreorderItemAttributeEntity.m */; };
-		EAC20D261D5B8B78004FA964 /* AreaEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2931D3115E9001BF3B5 /* AreaEntity.h */; };
-		EAC20D271D5B8B78004FA964 /* AreaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2941D3115E9001BF3B5 /* AreaEntity.m */; };
-		EAC20D281D5B8B78004FA964 /* AddressEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2951D3115E9001BF3B5 /* AddressEntity.h */; };
-		EAC20D291D5B8B78004FA964 /* AddressEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2961D3115E9001BF3B5 /* AddressEntity.m */; };
-		EAC20D2A1D5B8B78004FA964 /* UserEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2971D3115E9001BF3B5 /* UserEntity.h */; };
-		EAC20D2B1D5B8B78004FA964 /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2981D3115E9001BF3B5 /* UserEntity.m */; };
-		EAC20D2C1D5B8B78004FA964 /* OrderEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2991D3115E9001BF3B5 /* OrderEntity.h */; };
-		EAC20D2D1D5B8B78004FA964 /* OrderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29A1D3115E9001BF3B5 /* OrderEntity.m */; };
-		EAC20D2E1D5B8B78004FA964 /* OrderItemEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29B1D3115E9001BF3B5 /* OrderItemEntity.h */; };
-		EAC20D2F1D5B8B78004FA964 /* OrderItemEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29C1D3115E9001BF3B5 /* OrderItemEntity.m */; };
-		EAC20D301D5B8B78004FA964 /* OrderItemAttributeEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29D1D3115E9001BF3B5 /* OrderItemAttributeEntity.h */; };
-		EAC20D311D5B8B78004FA964 /* OrderItemAttributeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC29E1D3115E9001BF3B5 /* OrderItemAttributeEntity.m */; };
 		EAC20D321D5B8B78004FA964 /* Address.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2701D3113F6001BF3B5 /* Address.h */; };
 		EAC20D331D5B8B78004FA964 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2711D3113F6001BF3B5 /* Address.m */; };
 		EAC20D341D5B8B78004FA964 /* Area.h in Sources */ = {isa = PBXBuildFile; fileRef = EA1AC2721D3113F6001BF3B5 /* Area.h */; };
@@ -363,36 +333,6 @@
 		EA1AC2731D3113F6001BF3B5 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
 		EA1AC2741D3113F6001BF3B5 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		EA1AC2751D3113F6001BF3B5 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
-		EA1AC2811D3115E9001BF3B5 /* ProductAttributeItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttributeItemEntity.h; sourceTree = "<group>"; };
-		EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAttributeItemEntity.m; sourceTree = "<group>"; };
-		EA1AC2831D3115E9001BF3B5 /* ProductAttributeItemValueEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttributeItemValueEntity.h; sourceTree = "<group>"; };
-		EA1AC2841D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAttributeItemValueEntity.m; sourceTree = "<group>"; };
-		EA1AC2851D3115E9001BF3B5 /* ProductEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductEntity.h; sourceTree = "<group>"; };
-		EA1AC2861D3115E9001BF3B5 /* ProductEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductEntity.m; sourceTree = "<group>"; };
-		EA1AC2871D3115E9001BF3B5 /* CartItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartItemEntity.h; sourceTree = "<group>"; };
-		EA1AC2881D3115E9001BF3B5 /* CartItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartItemEntity.m; sourceTree = "<group>"; };
-		EA1AC2891D3115E9001BF3B5 /* CartItemAttributeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartItemAttributeEntity.h; sourceTree = "<group>"; };
-		EA1AC28A1D3115E9001BF3B5 /* CartItemAttributeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartItemAttributeEntity.m; sourceTree = "<group>"; };
-		EA1AC28B1D3115E9001BF3B5 /* CouponUserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponUserEntity.h; sourceTree = "<group>"; };
-		EA1AC28C1D3115E9001BF3B5 /* CouponUserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponUserEntity.m; sourceTree = "<group>"; };
-		EA1AC28D1D3115E9001BF3B5 /* PreorderEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderEntity.h; sourceTree = "<group>"; };
-		EA1AC28E1D3115E9001BF3B5 /* PreorderEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderEntity.m; sourceTree = "<group>"; };
-		EA1AC28F1D3115E9001BF3B5 /* PreorderItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderItemEntity.h; sourceTree = "<group>"; };
-		EA1AC2901D3115E9001BF3B5 /* PreorderItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderItemEntity.m; sourceTree = "<group>"; };
-		EA1AC2911D3115E9001BF3B5 /* PreorderItemAttributeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderItemAttributeEntity.h; sourceTree = "<group>"; };
-		EA1AC2921D3115E9001BF3B5 /* PreorderItemAttributeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderItemAttributeEntity.m; sourceTree = "<group>"; };
-		EA1AC2931D3115E9001BF3B5 /* AreaEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaEntity.h; sourceTree = "<group>"; };
-		EA1AC2941D3115E9001BF3B5 /* AreaEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaEntity.m; sourceTree = "<group>"; };
-		EA1AC2951D3115E9001BF3B5 /* AddressEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressEntity.h; sourceTree = "<group>"; };
-		EA1AC2961D3115E9001BF3B5 /* AddressEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressEntity.m; sourceTree = "<group>"; };
-		EA1AC2971D3115E9001BF3B5 /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
-		EA1AC2981D3115E9001BF3B5 /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
-		EA1AC2991D3115E9001BF3B5 /* OrderEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderEntity.h; sourceTree = "<group>"; };
-		EA1AC29A1D3115E9001BF3B5 /* OrderEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderEntity.m; sourceTree = "<group>"; };
-		EA1AC29B1D3115E9001BF3B5 /* OrderItemEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItemEntity.h; sourceTree = "<group>"; };
-		EA1AC29C1D3115E9001BF3B5 /* OrderItemEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItemEntity.m; sourceTree = "<group>"; };
-		EA1AC29D1D3115E9001BF3B5 /* OrderItemAttributeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItemAttributeEntity.h; sourceTree = "<group>"; };
-		EA1AC29E1D3115E9001BF3B5 /* OrderItemAttributeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItemAttributeEntity.m; sourceTree = "<group>"; };
 		EA1AC29F1D3115E9001BF3B5 /* OrderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderStatus.h; sourceTree = "<group>"; };
 		EA1AC2A01D3115E9001BF3B5 /* OrderStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderStatus.m; sourceTree = "<group>"; };
 		EA1AC2B31D311638001BF3B5 /* common_macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common_macro.h; sourceTree = "<group>"; };
@@ -607,7 +547,6 @@
 				EA1AC21D1D30B35C001BF3B5 /* components */,
 				EA1AC2051D30B2BB001BF3B5 /* vendors */,
 				EA1AC2041D30B1E0001BF3B5 /* views */,
-				EA1AC27E1D3115C5001BF3B5 /* entities */,
 				EA1AC2031D30B1D6001BF3B5 /* models */,
 				EA1AC2021D30B1CD001BF3B5 /* controllers */,
 				EA1AC1CD1D301105001BF3B5 /* Supporting Files */,
@@ -885,43 +824,6 @@
 				EA1AC2641D31133B001BF3B5 /* ProductController.m */,
 			);
 			name = product;
-			sourceTree = "<group>";
-		};
-		EA1AC27E1D3115C5001BF3B5 /* entities */ = {
-			isa = PBXGroup;
-			children = (
-				EA1AC2811D3115E9001BF3B5 /* ProductAttributeItemEntity.h */,
-				EA1AC2821D3115E9001BF3B5 /* ProductAttributeItemEntity.m */,
-				EA1AC2831D3115E9001BF3B5 /* ProductAttributeItemValueEntity.h */,
-				EA1AC2841D3115E9001BF3B5 /* ProductAttributeItemValueEntity.m */,
-				EA1AC2851D3115E9001BF3B5 /* ProductEntity.h */,
-				EA1AC2861D3115E9001BF3B5 /* ProductEntity.m */,
-				EA1AC2871D3115E9001BF3B5 /* CartItemEntity.h */,
-				EA1AC2881D3115E9001BF3B5 /* CartItemEntity.m */,
-				EA1AC2891D3115E9001BF3B5 /* CartItemAttributeEntity.h */,
-				EA1AC28A1D3115E9001BF3B5 /* CartItemAttributeEntity.m */,
-				EA1AC28B1D3115E9001BF3B5 /* CouponUserEntity.h */,
-				EA1AC28C1D3115E9001BF3B5 /* CouponUserEntity.m */,
-				EA1AC28D1D3115E9001BF3B5 /* PreorderEntity.h */,
-				EA1AC28E1D3115E9001BF3B5 /* PreorderEntity.m */,
-				EA1AC28F1D3115E9001BF3B5 /* PreorderItemEntity.h */,
-				EA1AC2901D3115E9001BF3B5 /* PreorderItemEntity.m */,
-				EA1AC2911D3115E9001BF3B5 /* PreorderItemAttributeEntity.h */,
-				EA1AC2921D3115E9001BF3B5 /* PreorderItemAttributeEntity.m */,
-				EA1AC2931D3115E9001BF3B5 /* AreaEntity.h */,
-				EA1AC2941D3115E9001BF3B5 /* AreaEntity.m */,
-				EA1AC2951D3115E9001BF3B5 /* AddressEntity.h */,
-				EA1AC2961D3115E9001BF3B5 /* AddressEntity.m */,
-				EA1AC2971D3115E9001BF3B5 /* UserEntity.h */,
-				EA1AC2981D3115E9001BF3B5 /* UserEntity.m */,
-				EA1AC2991D3115E9001BF3B5 /* OrderEntity.h */,
-				EA1AC29A1D3115E9001BF3B5 /* OrderEntity.m */,
-				EA1AC29B1D3115E9001BF3B5 /* OrderItemEntity.h */,
-				EA1AC29C1D3115E9001BF3B5 /* OrderItemEntity.m */,
-				EA1AC29D1D3115E9001BF3B5 /* OrderItemAttributeEntity.h */,
-				EA1AC29E1D3115E9001BF3B5 /* OrderItemAttributeEntity.m */,
-			);
-			name = entities;
 			sourceTree = "<group>";
 		};
 		EA1AC2B21D311628001BF3B5 /* macros */ = {
@@ -1441,36 +1343,6 @@
 				EAC20D111D5B8B78004FA964 /* TabTopicProductCell.m in Sources */,
 				EAC20D121D5B8B78004FA964 /* TabHomeRightTableCell.h in Sources */,
 				EAC20D131D5B8B78004FA964 /* TabHomeRightTableCell.m in Sources */,
-				EAC20D141D5B8B78004FA964 /* ProductAttributeItemEntity.h in Sources */,
-				EAC20D151D5B8B78004FA964 /* ProductAttributeItemEntity.m in Sources */,
-				EAC20D161D5B8B78004FA964 /* ProductAttributeItemValueEntity.h in Sources */,
-				EAC20D171D5B8B78004FA964 /* ProductAttributeItemValueEntity.m in Sources */,
-				EAC20D181D5B8B78004FA964 /* ProductEntity.h in Sources */,
-				EAC20D191D5B8B78004FA964 /* ProductEntity.m in Sources */,
-				EAC20D1A1D5B8B78004FA964 /* CartItemEntity.h in Sources */,
-				EAC20D1B1D5B8B78004FA964 /* CartItemEntity.m in Sources */,
-				EAC20D1C1D5B8B78004FA964 /* CartItemAttributeEntity.h in Sources */,
-				EAC20D1D1D5B8B78004FA964 /* CartItemAttributeEntity.m in Sources */,
-				EAC20D1E1D5B8B78004FA964 /* CouponUserEntity.h in Sources */,
-				EAC20D1F1D5B8B78004FA964 /* CouponUserEntity.m in Sources */,
-				EAC20D201D5B8B78004FA964 /* PreorderEntity.h in Sources */,
-				EAC20D211D5B8B78004FA964 /* PreorderEntity.m in Sources */,
-				EAC20D221D5B8B78004FA964 /* PreorderItemEntity.h in Sources */,
-				EAC20D231D5B8B78004FA964 /* PreorderItemEntity.m in Sources */,
-				EAC20D241D5B8B78004FA964 /* PreorderItemAttributeEntity.h in Sources */,
-				EAC20D251D5B8B78004FA964 /* PreorderItemAttributeEntity.m in Sources */,
-				EAC20D261D5B8B78004FA964 /* AreaEntity.h in Sources */,
-				EAC20D271D5B8B78004FA964 /* AreaEntity.m in Sources */,
-				EAC20D281D5B8B78004FA964 /* AddressEntity.h in Sources */,
-				EAC20D291D5B8B78004FA964 /* AddressEntity.m in Sources */,
-				EAC20D2A1D5B8B78004FA964 /* UserEntity.h in Sources */,
-				EAC20D2B1D5B8B78004FA964 /* UserEntity.m in Sources */,
-				EAC20D2C1D5B8B78004FA964 /* OrderEntity.h in Sources */,
-				EAC20D2D1D5B8B78004FA964 /* OrderEntity.m in Sources */,
-				EAC20D2E1D5B8B78004FA964 /* OrderItemEntity.h in Sources */,
-				EAC20D2F1D5B8B78004FA964 /* OrderItemEntity.m in Sources */,
-				EAC20D301D5B8B78004FA964 /* OrderItemAttributeEntity.h in Sources */,
-				EAC20D311D5B8B78004FA964 /* OrderItemAttributeEntity.m in Sources */,
 				EAC20D321D5B8B78004FA964 /* Address.h in Sources */,
 				EAC20D331D5B8B78004FA964 /* Address.m in Sources */,
 				EAC20D341D5B8B78004FA964 /* Area.h in Sources */,
