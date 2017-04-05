@@ -25,8 +25,12 @@
 ###### Pod的安装，请看：http://blog.csdn.net/eqera/article/details/39312125
 
 ##### 4.访问在线服务器:
-    取消注释 macros/url_macro.h: //#define kUrlBase @"http://eleteamapi.ygcr8.com/v1" //在线服务器
-
+    取消注释 macros/url_macro.h: 
+        //#define kUrlBase @"http://api.eleteam.com/v1" //在线服务器
+        
+#### 测试在线服务器是否正常
+    http://api.eleteam.com/v1/banner/list
+    
 ### 部分App界面：
 ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6733.jpg)      ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6734.jpg)      ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6735.jpg)     
 
