@@ -39,7 +39,6 @@
 ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6740.jpg)      ![](https://raw.githubusercontent.com/YKXMall/Shop-for-iOS/master/Screenshoot/IMG_6741.jpg)     
 
 ###### @author Tony Wong
-###### @email 908601756@qq.com
 ###### @copyright Copyright © 2015年 EleTeam. All rights reserved.
 ###### @license The MIT License (MIT)
 
